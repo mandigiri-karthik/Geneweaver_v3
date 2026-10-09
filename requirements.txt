@@ -1,0 +1,8 @@
+# The project is managed with uv (see pyproject.toml / uv.lock).
+# This file is only for people not using uv:  pip install -r requirements.txt
+pyrodigal>=3.5
+biopython>=1.84
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=2.0
+requests>=2.31
+pytest>=8.0
