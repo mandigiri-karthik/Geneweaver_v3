@@ -1,22 +1,10 @@
 [project]
 name = "geneweaver-v3"
 version = "0.1.0"
-description = "Agentic prokaryotic genome annotation: CAM and PAM LangGraph agents, a successor to AGMIAL"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "biopython>=1.84",
-    "langgraph>=1.0",
-    "langgraph-checkpoint-sqlite>=2.0",
-    "pyrodigal>=3.5",
-    "requests>=2.31",
+    "biopython>=1.88",
+    "ipykernel>=7.4.0",
 ]
-
-[dependency-groups]
-dev = [
-    "pytest>=8.0",
-]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-pythonpath = ["src"]

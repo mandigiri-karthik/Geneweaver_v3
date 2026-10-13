@@ -1,0 +1,317 @@
+{
+  "n_reference_cds": 1801,
+  "n_reference_pseudo_skipped": 29,
+  "n_predicted_cds": 1851,
+  "matched_by_stop": 1783,
+  "exact_match": 1648,
+  "start_errors": 135,
+  "missed": 18,
+  "extra": 68,
+  "sensitivity_pct": 99.0,
+  "precision_pct": 96.33,
+  "exact_pct_of_matched": 92.43,
+  "start_error_pct_of_matched": 7.57,
+  "start_shift_longer_vs_shorter": {
+    "cam_longer": 79,
+    "cam_shorter": 56
+  },
+  "examples": {
+    "start_errors": [
+      {
+        "pred": "GW_00025",
+        "ref_locus_tag": "LCA_RS00025",
+        "ref_product": "DNA topoisomerase (ATP-hydrolyzing) subunit B",
+        "shift_bp": -15
+      },
+      {
+        "pred": "GW_00115",
+        "ref_locus_tag": "LCA_RS00115",
+        "ref_product": "class Ib ribonucleoside-diphosphate reductase assembly flavoprotein NrdI",
+        "shift_bp": 3
+      },
+      {
+        "pred": "GW_00135",
+        "ref_locus_tag": "LCA_RS00135",
+        "ref_product": "iron-sulfur cluster biosynthesis family protein",
+        "shift_bp": 18
+      },
+      {
+        "pred": "GW_00235",
+        "ref_locus_tag": "LCA_RS00235",
+        "ref_product": "helix-turn-helix domain-containing protein",
+        "shift_bp": -9
+      },
+      {
+        "pred": "GW_00355",
+        "ref_locus_tag": "LCA_RS00350",
+        "ref_product": "MurR/RpiR family transcriptional regulator",
+        "shift_bp": -24
+      },
+      {
+        "pred": "GW_00420",
+        "ref_locus_tag": "LCA_RS00420",
+        "ref_product": "adenine deaminase C-terminal domain-containing protein",
+        "shift_bp": -6
+      },
+      {
+        "pred": "GW_00505",
+        "ref_locus_tag": "LCA_RS00495",
+        "ref_product": "hypothetical protein",
+        "shift_bp": -9
+      },
+      {
+        "pred": "GW_00590",
+        "ref_locus_tag": "LCA_RS00580",
+        "ref_product": "APC family permease",
+        "shift_bp": 78
+      },
+      {
+        "pred": "GW_00615",
+        "ref_locus_tag": "LCA_RS00605",
+        "ref_product": "LacI family DNA-binding transcriptional regulator",
+        "shift_bp": 90
+      },
+      {
+        "pred": "GW_00660",
+        "ref_locus_tag": "LCA_RS00650",
+        "ref_product": "glutamine-hydrolyzing GMP synthase",
+        "shift_bp": 15
+      },
+      {
+        "pred": "GW_00685",
+        "ref_locus_tag": "LCA_RS00675",
+        "ref_product": "IS3-like element IS1520 family transposase",
+        "shift_bp": -272
+      },
+      {
+        "pred": "GW_00845",
+        "ref_locus_tag": "LCA_RS00820",
+        "ref_product": "WxLIP family cell surface protein",
+        "shift_bp": 51
+      },
+      {
+        "pred": "GW_00945",
+        "ref_locus_tag": "LCA_RS00910",
+        "ref_product": "C69 family dipeptidase",
+        "shift_bp": -6
+      },
+      {
+        "pred": "GW_00965",
+        "ref_locus_tag": "LCA_RS00930",
+        "ref_product": "ribose/proton symporter RbsU",
+        "shift_bp": 3
+      },
+      {
+        "pred": "GW_01015",
+        "ref_locus_tag": "LCA_RS00980",
+        "ref_product": "choloylglycine hydrolase family protein",
+        "shift_bp": 6
+      },
+      {
+        "pred": "GW_01050",
+        "ref_locus_tag": "LCA_RS01010",
+        "ref_product": "helix-turn-helix domain-containing protein",
+        "shift_bp": -33
+      },
+      {
+        "pred": "GW_01060",
+        "ref_locus_tag": "LCA_RS01020",
+        "ref_product": "thioredoxin",
+        "shift_bp": 3
+      },
+      {
+        "pred": "GW_01070",
+        "ref_locus_tag": "LCA_RS01030",
+        "ref_product": "CynX/NimT family MFS transporter",
+        "shift_bp": -120
+      },
+      {
+        "pred": "GW_01080",
+        "ref_locus_tag": "LCA_RS01040",
+        "ref_product": "IS3-like element IS1520 family transposase",
+        "shift_bp": -272
+      },
+      {
+        "pred": "GW_01095",
+        "ref_locus_tag": "LCA_RS01055",
+        "ref_product": "DapH/DapD/GlmU-related protein",
+        "shift_bp": 12
+      }
+    ],
+    "missed": [
+      {
+        "locus_tag": "LCA_RS09460",
+        "product": "DUF3324 domain-containing protein",
+        "length_bp": 237
+      },
+      {
+        "locus_tag": "LCA_RS09710",
+        "product": "hypothetical protein",
+        "length_bp": 156
+      },
+      {
+        "locus_tag": "LCA_RS09975",
+        "product": "DUF6198 family protein",
+        "length_bp": 351
+      },
+      {
+        "locus_tag": "LCA_RS02870",
+        "product": "hypothetical protein",
+        "length_bp": 843
+      },
+      {
+        "locus_tag": "LCA_RS09615",
+        "product": "DUF4044 domain-containing protein",
+        "length_bp": 123
+      },
+      {
+        "locus_tag": "LCA_RS05050",
+        "product": "virulence activator alpha C-terminal domain-containing protein",
+        "length_bp": 348
+      },
+      {
+        "locus_tag": "LCA_RS05105",
+        "product": "ferredoxin",
+        "length_bp": 231
+      },
+      {
+        "locus_tag": "LCA_RS09885",
+        "product": "hypothetical protein",
+        "length_bp": 159
+      },
+      {
+        "locus_tag": "LCA_RS05580",
+        "product": "membrane protein insertion efficiency factor YidD",
+        "length_bp": 249
+      },
+      {
+        "locus_tag": "LCA_RS05760",
+        "product": "hypothetical protein",
+        "length_bp": 183
+      },
+      {
+        "locus_tag": "LCA_RS09810",
+        "product": "hypothetical protein",
+        "length_bp": 144
+      },
+      {
+        "locus_tag": "LCA_RS09980",
+        "product": "transposase",
+        "length_bp": 249
+      },
+      {
+        "locus_tag": "LCA_RS09660",
+        "product": "acyltransferase",
+        "length_bp": 321
+      },
+      {
+        "locus_tag": "LCA_RS09780",
+        "product": "hypothetical protein",
+        "length_bp": 174
+      },
+      {
+        "locus_tag": "LCA_RS09965",
+        "product": "isochorismatase family protein",
+        "length_bp": 285
+      },
+      {
+        "locus_tag": "LCA_RS09065",
+        "product": "hypothetical protein",
+        "length_bp": 222
+      },
+      {
+        "locus_tag": "LCA_RS09970",
+        "product": "LPXTG cell wall anchor domain-containing protein",
+        "length_bp": 231
+      },
+      {
+        "locus_tag": "LCA_RS09260",
+        "product": "IS1-like element IS1A family transposase",
+        "length_bp": 698
+      }
+    ],
+    "extra": [
+      {
+        "id": "GW_00330",
+        "length_bp": 981
+      },
+      {
+        "id": "GW_00335",
+        "length_bp": 405
+      },
+      {
+        "id": "GW_00430",
+        "length_bp": 1296
+      },
+      {
+        "id": "GW_00435",
+        "length_bp": 369
+      },
+      {
+        "id": "GW_00690",
+        "length_bp": 252
+      },
+      {
+        "id": "GW_00720",
+        "length_bp": 114
+      },
+      {
+        "id": "GW_01040",
+        "length_bp": 138
+      },
+      {
+        "id": "GW_01075",
+        "length_bp": 252
+      },
+      {
+        "id": "GW_01090",
+        "length_bp": 456
+      },
+      {
+        "id": "GW_01265",
+        "length_bp": 252
+      },
+      {
+        "id": "GW_01290",
+        "length_bp": 519
+      },
+      {
+        "id": "GW_01325",
+        "length_bp": 1074
+      },
+      {
+        "id": "GW_01330",
+        "length_bp": 642
+      },
+      {
+        "id": "GW_01475",
+        "length_bp": 885
+      },
+      {
+        "id": "GW_01690",
+        "length_bp": 198
+      },
+      {
+        "id": "GW_01760",
+        "length_bp": 1752
+      },
+      {
+        "id": "GW_02055",
+        "length_bp": 894
+      },
+      {
+        "id": "GW_02060",
+        "length_bp": 615
+      },
+      {
+        "id": "GW_02155",
+        "length_bp": 456
+      },
+      {
+        "id": "GW_02265",
+        "length_bp": 93
+      }
+    ]
+  },
+  "runtime_s": 0.49
+}
