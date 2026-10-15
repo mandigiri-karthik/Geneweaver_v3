@@ -35,7 +35,7 @@ databases/
 *.h3[fimp]
 *.dmnd
 
-# Generated pipeline outputs
+# Generated pipeline outputs (all recreated by running main.py)
 results/
-Structural_annotation/pyrodigal_results/
-Structural_annotation/pfam_hits*.tsv
+Structural_annotation/*_results/
+
