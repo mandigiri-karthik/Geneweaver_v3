@@ -42,6 +42,12 @@ def parse_args():
         help="HMM database for the domain search",
     )
     parser.add_argument(
+        "--pfam-clans",
+        type=Path,
+        default=ROOT / "Structural_annotation/databases/Pfam-A.clans.tsv.gz",
+        help="Pfam clan table, used to remove overlapping domains from the same clan",
+    )
+    parser.add_argument(
         "--domain-output-dir",
         type=Path,
         default=ROOT / "Structural_annotation/pfam_results",
@@ -117,6 +123,7 @@ def main():
             hmm_db_path=args.hmm_db,
             output_dir=args.domain_output_dir,
             prefix=args.prefix,
+            clans_path=args.pfam_clans,
         )
         outputs["pfam_hits"] = annotator.run()
 

@@ -1,0 +1,141 @@
+Initialized job 0ea03d3e-73ff-4800-ae75-5db0efc66ba4
+Uploaded GCF_000005845.2_ASM584v2_genomic.fna (HTTP 200)
+Uploaded replicons.tsv (HTTP 200)
+Job started
+[11:50:09] status: INIT
+[11:50:39] status: RUNNING
+[11:51:09] status: RUNNING
+[11:51:39] status: RUNNING
+[11:52:10] status: RUNNING
+[11:52:40] status: RUNNING
+[11:53:10] status: RUNNING
+[11:53:40] status: RUNNING
+[11:54:10] status: RUNNING
+[11:54:41] status: RUNNING
+[11:55:11] status: RUNNING
+[11:55:41] status: RUNNING
+[11:56:11] status: RUNNING
+[11:56:42] status: RUNNING
+[11:57:12] status: RUNNING
+[11:57:42] status: RUNNING
+[11:58:12] status: RUNNING
+[11:58:42] status: SUCCESSFUL
+Downloaded EMBL             -> result.embl
+Downloaded FAA              -> result.faa
+Downloaded FAAHypothetical  -> result.hypotheticals.faa
+Downloaded FFN              -> result.ffn
+Downloaded FNA              -> result.fna
+Downloaded GBFF             -> result.gbff
+Downloaded GFF3             -> result.gff3
+Downloaded JSON             -> result.json
+Downloaded TSV              -> result.tsv
+Downloaded TSVHypothetical  -> result.hypotheticals.tsv
+Downloaded TXTLogs          -> result.txt
+Downloaded TSVInference     -> result.inference.tsv
+Downloaded PNGCircularPlot  -> result.png
+Downloaded SVGCircularPlot  -> result.svg
+
+Bakta Command: bakta --tmp-dir /cache --threads 8 --prefix result -o /results --db /db/db --replicons /data/replicons.tsv --complete --keep-contig-headers --gram ? /data/fastadata.fasta --force
+Parse genome sequences...
+	imported: 1
+	filtered & revised: 1
+	chromosomes: 1
+
+Start annotation...
+predict tRNAs...
+	found: 89
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 22
+predict ncRNAs...
+	found: 232
+predict ncRNA regions...
+	found: 57
+predict CRISPR arrays...
+	found: 2
+predict & annotate CDSs...
+	predicted: 4319 
+	discarded length: 0
+	discarded spurious: 10
+	revised translational exceptions: 3
+	detected IPSs: 4246
+	found PSCs: 49
+	found PSCCs: 3
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 11
+		protein sequences: 778
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		candidates: 22
+		verified: 5
+	analyze hypothetical proteins: 44
+		detected Pfam hits: 2 
+		calculated proteins statistics
+	revise special cases...
+detect & annotate sORF...
+	detected: 56619
+	discarded due to overlaps: 45813
+	discarded spurious: 12
+	detected IPSs: 87
+	found PSCs: 11
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 89
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 2
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+	selected: 4777
+improve annotations...
+	revised gene symbols: 46
+
+Genome statistics:
+	Genome size: 4,641,652 bp
+	Contigs/replicons: 1
+	GC: 50.8 %
+	N50: 4,641,652
+	N90: 4,641,652
+	N ratio: 0.0 %
+	coding density: 89.3 %
+
+annotation summary:
+	tRNAs: 88
+	tmRNAs: 1
+	rRNAs: 22
+	ncRNAs: 232
+	ncRNA regions: 57
+	CRISPR arrays: 2
+	CDSs: 4295
+		hypotheticals: 32
+		pseudogenes: 5
+	sORFs: 78
+	gaps: 0
+	oriCs/oriVs: 2
+	oriTs: 0
+
+Export annotation results to: /results
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	feature inferences...
+	circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	Genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 7:42 [mm:ss].
+
+
+Feature counts:
+  ?            1

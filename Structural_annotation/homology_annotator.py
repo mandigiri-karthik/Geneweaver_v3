@@ -1,5 +1,6 @@
 import csv
 import subprocess
+import re
 from pathlib import Path
 
 from Bio import SeqIO
@@ -105,7 +106,10 @@ class HomologyAnnotator:
     @staticmethod
     def is_informative(name):
         """False for names that say nothing about function."""
-        return not name.startswith(("Uncharacterized", "Putative uncharacterized"))
+        uninformative_starts = ("Uncharacterized", "Putative uncharacterized", "UPF0")
+        gene_name_only = re.fullmatch(r"(Putative )?[Pp]rotein Y[a-z]{2}[A-Z0-9]*", name)
+        return not (name.startswith(uninformative_starts) or gene_name_only)
+
 
     def assign_names(self):
         """Choose one name per protein, including proteins with no match."""

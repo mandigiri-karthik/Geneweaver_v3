@@ -98,10 +98,18 @@ class AnnotationCombiner:
         """Pick the protein name and where it came from, using the simplest rule that works."""
         status = homology["status"] if homology else "no_match"
 
-        if status in ("confident", "uncharacterized_match"):
+        if status == "confident":
             return homology["product"], "homology"
-        if domains:
-            return self.name_from_domain(domains), "pfam_domain"
+
+        domain_name = self.name_from_domain(domains) if domains else None
+        # A match to an "Uncharacterized ..." protein says less than a known domain, so the domain wins,
+        # unless the domain is itself of unknown function (DUF, UPF): then the homology name is more specific
+        domain_unknown = domain_name is None or domain_name.startswith("DUF") or any(
+            words in domain_name.lower() for words in ("unknown function", "uncharacterised", "uncharacterized"))
+        if status == "uncharacterized_match" and domain_unknown:
+            return homology["product"], "homology"
+        if domain_name:
+            return domain_name, "pfam_domain"
         return "hypothetical protein", "none"
 
     def combine(self):
