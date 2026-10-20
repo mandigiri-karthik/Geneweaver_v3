@@ -62,9 +62,20 @@ conda run -p "$ENV_PREFIX" python -c \
 echo
 echo "== register the env as a Jupyter kernel =="
 conda run -p "$ENV_PREFIX" python -m pip install --quiet ipykernel
-conda run -p "$ENV_PREFIX" python -m ipykernel install --prefix=/opt/miniconda3 \
+# --user puts it in ~/.local/share/jupyter/kernels, which every Jupyter server
+# scans. Installing with --prefix into another env's tree gives a kernelspec the
+# running server may never find.
+conda run -p "$ENV_PREFIX" python -m ipykernel install --user \
     --name geneweaver --display-name "Python 3.12 (geneweaver)" >/dev/null
-echo "   kernel 'Python 3.12 (geneweaver)' installed - pick it in JupyterLab"
+echo "   kernel installed; servers visible to this shell now list:"
+if command -v jupyter >/dev/null; then
+    jupyter kernelspec list 2>/dev/null | sed 's/^/     /'
+    jupyter kernelspec list 2>/dev/null | grep -q geneweaver \
+        && echo "   OK - 'geneweaver' is registered" \
+        || echo "   WARNING - 'geneweaver' not listed; see the paths above"
+else
+    echo "     (jupyter not on PATH in this shell - check in JupyterLab)"
+fi
 
 cat <<EOF
 
