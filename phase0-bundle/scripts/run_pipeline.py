@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Driver for the deterministic annotation pipeline (arm B).
 
-The four annotator modules are library classes with no __main__ block - the
-original driver was a notebook (`Structural_annotation/stage0.ipynb`, deleted in
-d0789ef). This replaces it with a reproducible, parameterised entrypoint.
+On branch `dev` ALL FIVE modules are library classes with no __main__ block -
+GenePredictor too - so none of them can be run as a script. The original driver
+was a notebook (`Structural_annotation/stage0.ipynb`, deleted in d0789ef). This
+replaces it with a reproducible, parameterised entrypoint covering every stage.
 
 Produces, for each homology condition, exactly the filenames Phase 0's
 export_pipeline_gff3.py expects:
@@ -29,6 +30,10 @@ def main() -> int:
     p.add_argument("--databases", type=Path, required=True,
                    help="directory holding swissprot.dmnd, Pfam-A.hmm, pfam2go")
     p.add_argument("--prefix", default="ecoli")
+    p.add_argument("--genome", type=Path, default=None,
+                   help="genome FASTA (default: the frozen Phase-0 reference)")
+    p.add_argument("--skip-genes", action="store_true",
+                   help="reuse existing pyrodigal_results/ instead of re-predicting")
     p.add_argument("--conditions", nargs="+", default=DEFAULT_CONDITIONS,
                    help="DIAMOND database basenames to run")
     p.add_argument("--threads", type=int, default=8, help="DIAMOND threads")
@@ -45,12 +50,35 @@ def main() -> int:
     from go_mapper import GOMapper                          # noqa: E402
     from homology_annotator import HomologyAnnotator        # noqa: E402
     from pfam_annotator import DomainAnnotator              # noqa: E402
+    from predict_genes import GenePredictor                 # noqa: E402
 
-    proteins = sa / "pyrodigal_results" / f"{a.prefix}_proteins.faa"
-    genes_gff = sa / "pyrodigal_results" / f"{a.prefix}_genes.gff"
+    gene_dir = sa / "pyrodigal_results"
+    proteins = gene_dir / f"{a.prefix}_proteins.faa"
+    genes_gff = gene_dir / f"{a.prefix}_genes.gff"
+
+    genome = a.genome or (
+        a.repo / "Phase-0" / "reference" / "ncbi_dataset" / "data"
+        / "GCF_000005845.2" / "GCF_000005845.2_ASM584v2_genomic.fna"
+    )
+
+    # --- gene prediction -----------------------------------------------------
+    if a.skip_genes and proteins.is_file() and genes_gff.is_file():
+        print(f"== gene prediction: skipped, reusing {gene_dir} ==")
+    else:
+        if not genome.is_file():
+            print(f"missing genome FASTA: {genome}", file=sys.stderr)
+            return 1
+        print(f"== gene prediction (Pyrodigal, trained on the genome) ==")
+        # meta=False, closed=False are the defaults the frozen baseline used.
+        GenePredictor(
+            genome_path=genome,
+            output_dir=gene_dir,
+            prefix=a.prefix,
+        ).run()
+
     for f in (proteins, genes_gff):
         if not f.is_file():
-            print(f"missing {f}\nRun predict_genes.py first.", file=sys.stderr)
+            print(f"gene prediction did not produce {f}", file=sys.stderr)
             return 1
 
     hom_dir = sa / "homology_results"
@@ -100,7 +128,8 @@ def main() -> int:
             prefix=f"{a.prefix}_{cond}",
         ).run()
 
-    print("\nPipeline complete. Combined tables:")
+    n_prot = sum(1 for line in proteins.open() if line.startswith(">"))
+    print(f"\nPipeline complete. {n_prot} predicted proteins. Combined tables:")
     for cond in a.conditions:
         print("  ", ann_dir / f"{a.prefix}_{cond}_annotation.tsv")
     return 0
