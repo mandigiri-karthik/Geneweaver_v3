@@ -6,6 +6,6 @@ uniprot_sprot.fasta.gz	bc9d398533e6df582b563c6c03093bd0	yes	UniProt release 2026
 uniprot_sprot_no_ecoli.fasta.gz	cf527fd5843f613d9915f0d194f7ade9	no	derived by scripts/make_no_ecoli.py; gzip bytes vary with the zlib build, so the 545523-entry count is the real check, not this md5
 Pfam-A.hmm	589ccc8370eaf079022db0dbb25c8aa2	yes	decompressed; CONFIRMED Pfam38.2 (md5 verified after fetching that release, 2026-10-20)
 Pfam-A.clans.tsv.gz	a70eeffcd8105ff094ea5834456d8bab	yes	
-pfam2go	7d9f1c4e1f3f4b811a7fec9c4d7f2c27	yes	GO version date 2026/07/06
+pfam2go	7d9f1c4e1f3f4b811a7fec9c4d7f2c27	yes	GO version date 2026/07/06; ROLLING upstream file with no versioned URL, so the exact copy is vendored at Phase-0/reference/pfam2go
 swissprot.dmnd	f4174be627758fbe929cb9f514a6d5f3	no	rebuilt; DIAMOND 2.2.8
 swissprot_no_ecoli.dmnd	54b3948efcc98ee0eb3a71718e7db2e2	no	rebuilt; DIAMOND 2.2.8

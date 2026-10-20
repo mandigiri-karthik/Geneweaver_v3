@@ -131,5 +131,21 @@ Points the scorer has to decide:
 
 | File | md5 |
 |---|---|
+| `pfam2go` | `7d9f1c4e1f3f4b811a7fec9c4d7f2c27` |
 | `uniprot/UP000000625_ecoli_k12.tsv` | `c73978bf3a273747ea38f4c2d4958850` |
 | `reference_function.tsv` | `63c4839d5c0eaa160c7ef14e8b5815e0` |
+
+## pfam2go (added 2026-10-20)
+
+`pfam2go` maps Pfam entries to GO terms and is the input to the pipeline's GO step. GO publishes it
+at a single rolling URL (`external2go/pfam2go`, mirrored at `ftp.ebi.ac.uk/pub/databases/GO/goa/`)
+with **no versioned archive**, so re-downloading it does not reproduce an earlier run: a fetch on
+2026-10-20 returned `c3a8151e3e2f34c2ed39cdb0b1b4b2a3` rather than the baseline file.
+
+The copy used for the Phase 0 numbers is therefore vendored here (649 KB, GO version date
+2026/07/06 18:13:03, md5 `7d9f1c4e1f3f4b811a7fec9c4d7f2c27`).
+`phase0-bundle/scripts/fetch_databases.sh` copies this file instead of downloading it.
+
+GO terms do **not** enter `score_gff.py`, which scores gene symbol, EC number and product name, so
+the metrics in `Phase-0/results/` are unaffected by the mapping version. The GO evaluation in
+`validation/results/ecoli/step4_go_metrics.json` *is* affected and must use this file.

@@ -89,7 +89,23 @@ fi
 fetch "https://ftp.ebi.ac.uk/pub/databases/Pfam/releases/$PFAM_RELEASE/Pfam-A.clans.tsv.gz" Pfam-A.clans.tsv.gz
 
 echo "== pfam2go =="
-fetch "https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go" pfam2go
+# pfam2go is a ROLLING file: the EBI/GO mirror always serves the newest mapping and
+# keeps no versioned archive, so downloading it cannot reproduce the baseline. The
+# exact file the Phase 0 numbers were produced with (GO version date 2026/07/06) is
+# vendored in the repo at Phase-0/reference/pfam2go - only 649 KB - so copy that.
+VENDORED="$HERE/../../Phase-0/reference/pfam2go"
+if verify pfam2go 2>/dev/null; then
+    echo "ok (cached)  pfam2go"
+elif [ -f "$VENDORED" ]; then
+    cp "$VENDORED" pfam2go
+    verify pfam2go && echo "ok           pfam2go (from Phase-0/reference/)" || {
+        echo "  the vendored pfam2go does not match the manifest md5" >&2; exit 1; }
+else
+    echo "  Phase-0/reference/pfam2go is missing; falling back to the live mirror." >&2
+    echo "  WARNING: the live file is newer than the baseline and will change GO results." >&2
+    fetch "https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go" pfam2go
+    verify pfam2go || echo "  (expected - the live mapping has moved on since 2026/07/06)" >&2
+fi
 
 echo "== DIAMOND indexes (rebuilt locally; md5 depends on the DIAMOND build) =="
 for base in swissprot swissprot_no_ecoli; do
