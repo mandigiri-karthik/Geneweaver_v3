@@ -1,0 +1,10 @@
+{
+  "_comment": "Pre-filled for the IDA GPU pod (panicky-possum-94). Everything on /mnt/primary: the other PVCs are 95-100% full. threads=4 matches the pod's CPU request.",
+  "repo": "/mnt/primary/Geneweaver_v3",
+  "databases": "/mnt/primary/databases",
+  "bakta_db": "/mnt/primary/bakta-db/db",
+  "bakta_env": "/mnt/primary/envs/bakta",
+  "env_prefix": "/mnt/primary/envs/geneweaver",
+  "threads": 4,
+  "cpus": 4
+}

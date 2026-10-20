@@ -1,0 +1,51 @@
+n	locus_tag	strand	stop	ref_start	pred_start	ref_symbols	pred_gene	ref_ec	pred_ec	ref_product	pred_product	start_exact	symbol_match	ec_match	product_match	category	hand_same_gene	hand_same_function	hand_category_ok	hand_note
+1	b0968	+	1030342	1030064	1030064	yccx	yccX	3.6.1.7	3.6.1.7	acylphosphatase	acylphosphatase	True	True	True	True	agrees				
+2	b0214	-	235535	236002	236002	rnha	rnhA	3.1.26.4	3.1.26.4	ribonuclease HI	ribonuclease HI	True	True	True	True	agrees				
+3	b2365	+	2479184	2477847	2477847	dsdx	dsdX			D-serine transporter	D-serine transporter DsdX	True	True	n/a	True	agrees				
+4	b2110	-	2190926	2191645	2191600	yehc	yehC			putative fimbrial chaperone YehC	putative fimbrial chaperone YehC	False	True	n/a	True	agrees				
+5	b1913	-	1992874	1994706	1994706	uvrc	uvrC			UvrABC excision nuclease subunit C	excinuclease ABC subunit UvrC	True	True	n/a	False	agrees				
+6	b1213	+	1267316	1266924	1266924	ychq	sirB2			SirB family protein YchQ	invasion regulator SirB2	True	False	n/a	False	named_where_reference_hypothetical				
+7	b0896	+	944896	944033	944033	dmsc	dmsC		1.8.5.3	dimethyl sulfoxide reductase subunit C	dimethyl sulfoxide reductase anchor subunit DmsC	True	True	n/a	False	agrees				
+8	b0771	+	805764	803503	803503	ybhj	ybhJ			putative hydratase YbhJ	hydratase	True	True	n/a	False	agrees				
+9	b3629	-	3804181	3805116	3805116	waas	rfaS		2.4.1.-	lipopolysaccharide core biosynthesis protein WaaS	LPS core biosynthesis protein RfaS	True	False	n/a	False	wrong_function				
+10	b0276	+	292231	291500	291500	yagj	yagJ		3.1.21.5	protein YagJ	Protein YagJ	True	True	n/a	True	both_hypothetical				
+11	b0259	-	274101	275081	275081	insh1	tnp			IS5 transposase and trans-activator	IS5 family IS5 transposase	True	False	n/a	False	wrong_function				
+12	b0824	-	862612	863511	863511	ybiy	ybiY	1.97.1.4	1.97.1.4	putative pyruvate formate-lyase activating enzyme YbiY	Putative pyruvate formate-lyase 3-activating enzyme	True	True	True	True	agrees				
+13	b1874	-	1958520	1959266	1959266	cutc	cutC			PF03932 family protein CutC	copper homeostasis protein CutC	True	True	n/a	False	named_where_reference_hypothetical				
+14	b4818	-	2079427	2079477	2079477	yoej	yoeJ			protein YoeJ	Protein YoeJ	True	True	n/a	True	both_hypothetical				
+15	b4362	-	4600978	4601517	4601517	dnat	dnaT			primosomal protein DnaT	primosomal protein DnaT	True	True	n/a	True	agrees				
+16	b0227	+	247461	246712	246835	yafl	yafL	3.4.-.-	3.4.-.-	NlpC/P60 family protein YafL	Putative endopeptidase YafL	False	True	n/a	True	agrees				
+17	b1710	-	1793558	1794109	1794109	btue	btuE	1.11.1.24;1.11.1.9	1.11.1.24;1.11.1.9	thioredoxin/glutathione peroxidase BtuE	bifunctional thioredoxin/glutathione peroxidase	True	True	True	False	agrees				
+18	b3609	-	3783661	3784128	3784128	secb	secB			protein export chaperone SecB	protein-export chaperone SecB	True	True	n/a	True	agrees				
+19	b1887	-	1972836	1973339	1973339	chew	cheW			chemotaxis protein CheW	chemotaxis protein CheW	True	True	n/a	True	agrees				
+20	b3873	+	4062145	4061165	4061165	yihm	yihM			putative TIM barrel domain-containing protein YihM	Uncharacterized protein YihM	True	True	n/a	True	hypothetical_where_known				
+21	b2388	-	2508461	2509426	2509426	glk	glk	2.7.1.2	2.7.1.2	glucokinase	glucokinase	True	True	True	True	agrees				
+22	b0057	+	59279	59121	59121	yabq	yabQ			protein YabQ	Protein YabQ	True	True	n/a	True	both_hypothetical				
+23	b1377	-	1435760	1436893	1436893	ompn	ompN			outer membrane porin N	porin OmpN	True	True	n/a	False	agrees				
+24	b3635	-	3810343	3811152	3811152	mutm	mutM	3.2.2.23;4.2.99.18	3.2.2.23;4.2.99.18	DNA-formamidopyrimidine glycosylase	bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase	True	True	True	False	agrees				
+25	b2933	-	3077471	3078859	3078859	cmta	cmtA	2.7.1.197	2.7.1.197	mannitol-specific PTS enzyme IICB component CmtA	PTS mannitol transporter subunit IICB	True	True	True	False	agrees				
+26	b2386	-	2506647	2507894	2507894	fryc	fryC			putative PTS enzyme IIC component FryC	Fructose-like permease IIC component	True	True	n/a	False	agrees				
+27	b1340	+	1406542	1405979	1405979	smra	smrA	3.1.-.-	3.1.-.-	DNA endonuclease SmrA	DNA endonuclease SmrA	True	True	n/a	True	agrees				
+28	b1847	-	1930034	1930390	1930390	yebf	yebF			secreted protein YebF	protein YebF	True	True	n/a	True	hypothetical_where_known				
+29	b2902	-	3045158	3045901	3045901	ygff	ygfF	1.1.1.47	1.-.-.-	putative oxidoreductase YgfF	SDR family oxidoreductase	True	True	False	False	agrees				
+30	b0894	+	943403	940959	940959	dmsa	dmsA	1.8.5.3	1.8.5.3	dimethyl sulfoxide reductase subunit A	dimethylsulfoxide reductase subunit A	True	True	True	False	agrees				
+31	b4705	-	852869	852997	852997	mnts	mntS			small protein MntS	manganase accumulation protein MntS	True	True	n/a	False	agrees				
+32	b4473	-	3432436	3433560	3433560	smf	dprA			protein Smf	DNA-protecting protein DprA	True	False	n/a	False	wrong_function				
+33	b0849	-	890496	890753	890753	grxa	grxA			reduced glutaredoxin 1	glutaredoxin 1	True	True	n/a	True	agrees				
+34	b4787	+	3247751	3247668	3247674	yqim	yqiM			protein YqiM	Protein YqiM	False	True	n/a	True	both_hypothetical				
+35	b4785	-	3109317	3109400	3109400	yqgh	yqgH			protein YqgH	Protein YqgH	True	True	n/a	True	both_hypothetical				
+36	b2273	-	2387710	2388426	2388426	yfbn	yfbN			uncharacterized protein YfbN	Uncharacterized protein YfbN	True	True	n/a	True	both_hypothetical				
+37	b0383	+	403162	401747	401747	phoa	phoA	3.1.3.1	3.1.3.1	alkaline phosphatase	alkaline phosphatase	True	True	True	True	agrees				
+38	b3959	+	4156789	4156013	4156013	argb	argB	2.7.2.8	2.7.2.8	acetylglutamate kinase	acetylglutamate kinase	True	True	True	True	agrees				
+39	b1086	+	1145899	1144940	1144940	rluc	rluC	5.4.99.24	5.4.99.24	23S rRNA pseudouridine(955/2504/2580) synthase	23S rRNA pseudouridine(955/2504/2580) synthase RluC	True	True	True	False	agrees				
+40	b3265	+	3415021	3413864	3413864	acre	acrE			multidrug efflux pump membrane fusion lipoprotein AcrE	multidrug efflux RND transporter periplasmic adaptor subunit AcrE	True	True	n/a	False	agrees				
+41	b0696	-	724407	724979	724979	kdpc	kdpC		7.2.2.6	K(+) transporting P-type ATPase subunit KdpC	K(+)-transporting ATPase subunit C	True	True	n/a	False	agrees				
+42	b2514	-	2639301	2640575	2640575	hiss	hisS	6.1.1.21	6.1.1.21	histidine--tRNA ligase	histidine--tRNA ligase	True	True	True	True	agrees				
+43	b3118	-	3266127	3267065	3267065	tdca	tdcA			DNA-binding transcriptional activator TdcA	transcriptional regulator TdcA	True	True	n/a	False	agrees				
+44	b1656	+	1735959	1735378	1735378	sodb	sodB	1.15.1.1	1.15.1.1	superoxide dismutase (Fe)	superoxide dismutase [Fe]	True	True	True	True	agrees				
+45	b0606	+	641318	639753	639723	ahpf	ahpF	1.8.1.-	1.8.1.-	alkyl hydroperoxide reductase, AhpF component	alkyl hydroperoxide reductase subunit F	False	True	n/a	True	agrees				
+46	b0404	-	424337	424918	424918	acph	acpH	3.1.4.14	3.1.4.14	acyl carrier protein phosphodiesterase	ACP phosphodiesterase	True	True	True	False	agrees				
+47	b1955	+	2026326	2025511	2025511	yedp	yedP	3.1.3.70	3.1.3.70	putative mannosyl-3-phosphoglycerate phosphatase	mannosyl-3-phosphoglycerate phosphatase-related protein	True	True	True	False	agrees				
+48	b2483	+	2604794	2603847	2603847	hyfc	hyfC	1.-.-.-	1.-.-.-	hydrogenase 4 component C	hydrogenase 4 subunit HyfC	True	True	n/a	False	agrees				
+49	b0706	+	738853	738092	738092	ybfd	ybfD			H repeat-associated putative transposase YbfD	ISAs1 family transposase	True	True	n/a	False	agrees				
+50	b2009	-	2080789	2081262	2081262	sbmc	sbmC			DNA gyrase inhibitor	DNA gyrase inhibitor SbmC	True	True	n/a	False	agrees				

@@ -1,0 +1,51 @@
+n	locus_tag	strand	stop	ref_start	pred_start	ref_symbols	pred_gene	ref_ec	pred_ec	ref_product	pred_product	start_exact	symbol_match	ec_match	product_match	category	hand_same_gene	hand_same_function	hand_category_ok	hand_note
+1	b0978	+	1039284	1037740	1037740	appc	appC	7.1.1.3		cytochrome bd-II subunit 1	Cytochrome bd-II ubiquinol oxidase subunit 1	True	True	False	True	agrees				
+2	b0219	-	239419	240189	240189	yafv	yafV	3.5.1.3		2-oxoglutaramate amidase	Omega-amidase YafV	True	True	False	True	agrees				
+3	b2399	+	2519205	2518813	2518834	yfed				putative DNA-binding transcriptional regulator YfeD	Transcription regulator YfeC-like domain-containing protein	False	False	n/a	False	wrong_function				
+4	b2141	+	2231022	2230624	2230624	yohj				putative 3-hydroxypropanoate export protein YohJ	LrgA family domain-containing protein	True	False	n/a	False	hypothetical_where_known				
+5	b1941	+	2017927	2016554	2016554	flii	fliI	7.1.2.2		flagellar export ATPase FliI	Flagellum-specific ATP synthase	True	True	False	True	agrees				
+6	b1219	-	1273246	1273599	1273599	ychn				DsrE/F sulfur relay family protein YchN	DsrE/DsrF-like family domain-containing protein	True	False	n/a	False	wrong_function				
+7	b0904	-	953609	954466	954466	foca	focA			formate channel FocA	Formate channel FocA	True	True	n/a	True	agrees				
+8	b0776	+	811535	810381	810381	biof	bioF	2.3.1.47		8-amino-7-oxononanoate synthase	8-amino-7-oxononanoate synthase	True	True	False	True	agrees				
+9	b3679	-	3858401	3860116	3860116	yidk				putative transporter YidK	Sodium:solute symporter family domain-containing protein	True	False	n/a	False	wrong_function				
+10	b0280	-	295139	295579	295579	yagn	yagN			protein YagN	Uncharacterized protein YagN	True	True	n/a	True	both_hypothetical				
+11	b0265	-	279600	279875	279875	insa2	insA2			IS1 protein InsA	Insertion element IS1 2 protein InsA	True	True	n/a	True	agrees				
+12	b0831	+	871887	870967	870967	gsic	gsiC			glutathione ABC transporter membrane subunit GsiC	Glutathione transport system permease protein GsiC	True	True	n/a	True	agrees				
+13	b1896	-	1980188	1981612	1981612	otsa	otsA	2.4.1.15		trehalose-6-phosphate synthase	Trehalose-6-phosphate synthase	True	True	False	True	agrees				
+14	b2033	-	2104494	2105084	2105084	wbbj	wbbJ	2.3.1.-		putative lipopolysaccharide biosynthesis O-acetyl transferase WbbJ	Putative lipopolysaccharide biosynthesis O-acetyl transferase WbbJ	True	True	n/a	True	agrees				
+15	b0234	+	253161	252709	252787	yafp		2.3.1.-		putative N-acetyltransferase YafP	Acetyltransferase (GNAT) domain-containing protein	False	False	n/a	False	wrong_function				
+16	b1731	-	1813421	1813663	1813684	ceda	cedA			cell division modulator	Cell division activator CedA	False	True	n/a	True	agrees				
+17	b3660	+	3839171	3838248	3838248	yicl				putative transporter YicL	EamA-like transporter family domain-containing protein	True	False	n/a	False	wrong_function				
+18	b1914	-	1994703	1995359	1995359	uvry	uvrY			DNA-binding transcriptional activator UvrY	Response regulator UvrY	True	True	n/a	True	agrees				
+19	b3929	-	4118845	4119330	4119330	rraa	rraA			ribonuclease E inhibitor protein A	Regulator of ribonuclease activity A	True	True	n/a	True	agrees				
+20	b2427	-	2544752	2545609	2545609	murr	murR			DNA-binding transcriptional dual regulator MurR	HTH-type transcriptional regulator MurR	True	True	n/a	True	agrees				
+21	b0058	-	59687	60346	60346	rlua	rluA	5.4.99.28;5.4.99.29		23S rRNA pseudouridine(746) and tRNA pseudouridine(32) synthase	Dual-specificity RNA pseudouridine synthase RluA	True	True	False	True	agrees				
+22	b1389	+	1455155	1454868	1454868	paab	paaB			phenylacetyl-CoA 1,2-epoxidase subunit B	1,2-phenylacetyl-CoA epoxidase, subunit B	True	True	n/a	True	agrees				
+23	b3686	-	3866469	3866897	3866897	ibpb	ibpB			small heat shock protein IbpB	Small heat shock protein IbpB	True	True	n/a	True	agrees				
+24	b4468	-	3125470	3126522	3126522	glce	glcE	1.1.99.14		glycolate dehydrogenase, predicted FAD-binding subunit	Glycolate oxidase subunit GlcE	True	True	False	True	agrees				
+25	b2425	-	2542512	2543528	2543528	cysp	cysP			thiosulfate/sulfate ABC transporter periplasmic binding protein CysP	Thiosulfate-binding protein	True	True	n/a	True	agrees				
+26	b4526	-	1417838	1418008	1418008	ydae				zinc-binding protein	YdaE domain-containing protein	True	False	n/a	False	hypothetical_where_known				
+27	b1868	+	1952213	1951395	1951395	yece	yecE			DUF72 domain-containing protein YecE	UPF0759 protein YecE	True	True	n/a	True	both_hypothetical				
+28	b2947	+	3092828	3091878	3091878	gshb	gshB	6.3.2.3		glutathione synthetase	Glutathione synthetase	True	True	False	True	agrees				
+29	b0902	-	950340	951080	951080	pfla	pflA	1.97.1.4		pyruvate formate-lyase activating enzyme	Pyruvate formate-lyase 1-activating enzyme	True	True	False	True	agrees				
+30	b0823	-	860174	862606	862606	ybiw	ybiW	4.2.1.-		putative pyruvate formate lyase	Probable dehydratase YbiW	True	True	n/a	True	agrees				
+31	b3330	+	3462351	3461974	3461974	gspi	gspI			cryptic type II secretion system minor pseudopilin GspI	Putative type II secretion system protein I	True	True	n/a	True	agrees				
+32	b0856	+	897087	896134	896134	poth	potH			putrescine ABC transporter membrane subunit PotH	Putrescine transport system permease protein PotH	True	True	n/a	True	agrees				
+33	b3145	+	3292432	3291341	3291341	yrak				putative fimbrial adhesin YraK	Fimbrial protein domain-containing protein	True	False	n/a	False	wrong_function				
+34	b3011	+	3156518	3155355	3155355	yqhd	yqhD	1.1.1.2		NADPH-dependent aldehyde reductase YqhD	NADPH-dependent aldehyde reductase YqhD	True	True	False	True	agrees				
+35	b2304	+	2422601	2421708	2421708	yfch	yfcH			epimerase family protein YfcH	Epimerase family protein YfcH	True	True	n/a	True	agrees				
+36	b0387	+	406222	405764	405764	yaii	yaiI			DUF188 domain-containing protein YaiI	UPF0178 protein YaiI	True	True	n/a	True	both_hypothetical				
+37	b4026	+	4236148	4235906	4235906	yjbe				uncharacterized protein YjbE	Exopolysaccharide production protein YjbE domain-containing protein	True	False	n/a	False	named_where_reference_hypothetical				
+38	b1094	+	1151851	1151615	1151615	acpp	acpP			acyl carrier protein	Acyl carrier protein	True	True	n/a	True	agrees				
+39	b3318	-	3451382	3451684	3451684	rplw	rplW			50S ribosomal subunit protein L23	Large ribosomal subunit protein uL23	True	True	n/a	True	agrees				
+40	b0702	+	734102	733776	733776	ybfb	ybfB			uncharacterized protein YbfB	Uncharacterized protein YbfB	True	True	n/a	True	both_hypothetical				
+41	b2549	-	2679464	2682745	2682745	yphg	yphG			DUF5107 domain-containing protein YphG	Uncharacterized protein YphG	True	True	n/a	True	both_hypothetical				
+42	b3167	-	3312777	3313178	3313178	rbfa	rbfA			30S ribosome binding factor	Ribosome-binding factor A	True	True	n/a	False	agrees				
+43	b1676	+	1757110	1755698	1755698	pykf	pykF	2.7.1.40		pyruvate kinase 1	Pyruvate kinase I	True	True	False	True	agrees				
+44	b0610	-	643557	643967	643967	rnk	rnk			nucleoside diphosphate kinase regulator	Regulator of nucleoside diphosphate kinase	True	True	n/a	True	agrees				
+45	b0409	+	430476	429505	429505	secf	secF			Sec translocon accessory complex subunit SecF	Protein translocase subunit SecF	True	True	n/a	True	agrees				
+46	b1990	-	2062391	2063323	2063326	erfk;ldta	erfK	2.-.-.-		L,D-transpeptidase LdtA	Probable L,D-transpeptidase ErfK/SrfK	False	True	n/a	True	agrees				
+47	b2518	-	2644433	2644864	2644864	ndk	ndk	2.7.4.6		nucleoside diphosphate kinase	Nucleoside diphosphate kinase	True	True	False	True	agrees				
+48	b0711	+	744249	743593	743593	pxpb	pxpB	3.5.2.9		5-oxoprolinase component B	5-oxoprolinase subunit B	True	True	False	True	agrees				
+49	b2035	-	2106060	2107226	2107226	wbbh	wbbH			putative O-antigen polymerase	Putative O-antigen polymerase	True	True	n/a	True	agrees				
+50	b0892	+	939337	937994	937994	rara	rarA			replication-associated recombination protein A	Replication-associated recombination protein A	True	True	n/a	True	agrees				

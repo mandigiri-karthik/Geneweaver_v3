@@ -1,0 +1,4 @@
+tool	reference_genes	predicted_cds	matched	recall	false_positives	on_reference_pseudogenes	precision	start_exact	symbol_match	ec_scorable_genes	ec_match	ec_set_equal	ec_partial_only_genes	product_match	ref_known_genes	hypothetical_where_known	wrong_function	agrees	hypothetical_share	pseudogenes	duplicate_stops
+bakta	4290	4367	4179	0.9741	57	131	0.9865	0.9454	0.9363	1357	0.9779	0.9123	375	0.4709	3737	0.0476	0.045	0.9074	0.1399	6	0
+pipeline_swissprot	4290	4319	4119	0.9601	67	133	0.984	0.9442	0.8742	1357	0.0	0.0	376	0.8543	3717	0.0269	0.096	0.8771	0.1084	0	0
+pipeline_no_ecoli	4290	4319	4119	0.9601	67	133	0.984	0.9442	0.4608	1357	0.0	0.0	376	0.4423	3717	0.0433	0.4401	0.5165	0.1176	0	0

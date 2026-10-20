@@ -1,0 +1,290 @@
+seqid	strand	stop	locus_tag	ref_start	ref_symbols	ref_product	ref_ec	status	pred_id	pred_start	start_exact	pred_gene	pred_product	pred_ec	symbol_match	ec_match	product_match	category
+NC_000913.3	+	11315	b0012	10830	mbia	uncharacterized protein MbiA		missed										missed
+NC_000913.3	+	21399	b0024	21181	yaay	DUF2575 domain-containing protein YaaY		missed										missed
+NC_000913.3	+	43173	b0041	42403	fixa	putative electron transfer flavoprotein FixA		matched	KOIAIB_00043	42403	True	fixA	Protein FixA		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	85467	b4726	85511	yabr	protein YabR		missed										missed
+NC_000913.3	+	146310	b0130	145081	yade	putative polysaccharide deacetylase lipoprotein YadE	3.-.-.-	matched	KOIAIB_00140	145081	True	yadE	Uncharacterized protein YadE		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	232549	b0210	231926	yafe	putative S-adenosylmethionine-dependent methyltransferase		matched	KOIAIB_00227	231926	True	yafE	Uncharacterized protein YafE		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	234320	b4815	234288	ykfo	protein YkfO		missed										missed
+NC_000913.3	+	235538	b0213	234816	yafs	putative S-adenosyl-L-methionine-dependent methyltransferase		matched	KOIAIB_00230	234816	True	yafS	Uncharacterized protein YafS		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	264256	b0247	264732	ykfg	RadC-like JAB domain-containing protein YkfG		matched	KOIAIB_00272	264732	True	ykfG	UPF0758 protein YkfG		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	266110	b0251	266553	yafy	inner membrane lipoprotein YafY		matched	KOIAIB_00276	266967	False		hypothetical protein		False	n/a	False	hypothetical_where_known
+NC_000913.3	-	268097	b0253	268960	ykfa	putative GTP-binding protein YkfA		matched	KOIAIB_00278	268960	True	ykfA	Uncharacterized protein YkfA		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	290275	b4766	290370	argl	putative translational regulatory protein ArgL		missed										missed
+NC_000913.3	+	290638	b4688	290510	ykgs	protein YkgS		missed										missed
+NC_000913.3	-	293220	b0278	293918	yagl	resolvase-like catalytic domain-containing protein YagL		matched	KOIAIB_00305	293918	True	yagL	Uncharacterized protein YagL		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	303853	b0288	304182	ykgj	putative metal-chelating domain-containing protein YkgJ		missed										missed
+NC_000913.3	+	312339	b0295	312112	ykgl	uncharacterized protein YkgL		missed										missed
+NC_000913.3	-	318331	b0303	318567	rclb	hypochlorite stress response protein RclB		missed										missed
+NC_000913.3	+	322327	b0306	321608	ykge	putative lactate utilization oxidoreductase YkgE		matched	KOIAIB_00334	321608	True	ykgE	Uncharacterized protein YkgE		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	324453	b0308	323758	ykgg	DUF162 domain-containing lactate utilization protein YkgG		matched	KOIAIB_00336	323758	True	ykgG	Uncharacterized protein YkgG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	331876	b4730	331802	yahv	protein YahV		missed										missed
+NC_000913.3	+	338325	b0320	336778	yahf	putative acyl-CoA synthetase YahF		matched	KOIAIB_00347	336778	True	yahF	Uncharacterized protein YahF		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	340089	b0322	339769	yahh	putative uncharacterized protein YahH		missed										missed
+NC_000913.3	+	342507	b0324	341125	yahj	amidohydrolase family protein YahJ		matched	KOIAIB_00353	341125	True	yahJ	Uncharacterized protein YahJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	345434	b4845	345252	xtpa	putative transcriptional regulator XtpA		missed										missed
+NC_000913.3	+	345649	b0327	345404	yahm	uncharacterized protein YahM		missed										missed
+NC_000913.3	+	384079	b4731	383960	ykic	protein YkiC		missed										missed
+NC_000913.3	-	391592	b4767	391648	ytib	protein YtiB		missed										missed
+NC_000913.3	+	464308	b0442	463937	ybav	helix-hairpin-helix 3 family protein		matched	KOIAIB_00483	463937	True	ybaV	Uncharacterized protein YbaV		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	491259	b0468	490882	yban	DUF454 domain-containing inner membrane protein YbaN		matched	KOIAIB_00509	490882	True	ybaN	DUF454 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	493386	b0470	492092	dnax	DNA polymerase III subunit gamma	2.7.7.7	missed										missed
+NC_000913.3	-	511168	b0484	511379	copa	soluble Cu(+) chaperone	7.2.2.8	missed										missed
+NC_000913.3	-	514856	b0489	515773	qmca	PHB domain-containing protein QmcA		matched	KOIAIB_00536	515773	True	qmcA	Protein QmcA		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	529645	b0502	530016	ylbg	putative DNA-binding transcriptional regulator YlbG		matched	KOIAIB_00548	530016	True	ylbG	Uncharacterized protein YlbG		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	568844	b4733	568695	ylcj	protein YlcJ		missed										missed
+NC_000913.3	+	570428	b0544	568902	ybck	putative recombinase YbcK		matched	KOIAIB_00590	568902	True	ybcK	Uncharacterized protein YbcK		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	572469	b4588	572368	ylch	uncharacterized protein YlcH		missed										missed
+NC_000913.3	+	578509	b4510	578327	rzod	putative prophage lysis lipoprotein RzoD		missed										missed
+NC_000913.3	-	580251	b4589	580445	ylci	DUF3950 domain-containing protein YlcI		missed										missed
+NC_000913.3	+	582097	b0561	581534	tfad	putative tail fiber assembly protein TfaD		matched	KOIAIB_00610	581354	False	tfaD	Protein TfaD		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	587091	b0567	587981	ybch	putative exopolysaccharide secretion system auxiliary component		matched	KOIAIB_00618	587981	True	ybcH	DUF4434 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	609459	b0583	610079	entd	phosphopantetheinyl transferase EntD	2.7.8.-	missed										missed
+NC_000913.3	-	634747	b0601	635376	ybdm	ParB-like nuclease domain-containing protein YbdM		matched	KOIAIB_00657	635376	True	ybdM	Uncharacterized protein YbdM		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	635349	b0602	636569	ybdn	putative PAPS reductase/DUF3440 domain-containing protein YbdN		matched	KOIAIB_00658	636569	True	ybdN	Uncharacterized protein YbdN		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	720718	b4803	720822	spefl	leader peptide SpeFL		missed										missed
+NC_000913.3	-	728732	b4513	728821	kdpf	K(+) transporting P-type ATPase subunit KdpF		missed										missed
+NC_000913.3	-	747921	b0716	748982	ybgo	putative fimbrial protein YbgO		matched	KOIAIB_00773	748982	True	ybgO	Uncharacterized protein YbgO		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	754658	b4768	754690	ybgv	protein YbgV		missed										missed
+NC_000913.3	+	821506	b0787	820793	ybhm	Bax1-I family protein YbhM		matched	KOIAIB_00849	820793	True	ybhM	Uncharacterized protein YbhM		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	823736	b0790	824497	ybhp	endonuclease/exonuclease/phosphatase domain-containing protein YbhP		matched	KOIAIB_00852	824497	True	ybhP	Uncharacterized protein YbhP		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	904916	b0866	904593	ybjq	putative heavy metal binding protein YbjQ		matched	KOIAIB_00936	904593	True	ybjQ	UPF0145 protein YbjQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	905740	b0868	906753	ybjs	putative epimerase YbjS		matched	KOIAIB_00938	906753	True	ybjS	Uncharacterized protein YbjS		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	970621	b0916	969389	ycaq	interstrand DNA crosslink repair glycosylase	3.2.2.-	matched	KOIAIB_00988	969389	True	ycaQ	Uncharacterized protein YcaQ		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	972645	b0919	971752	ycbj	putative phosphotransferase YcbJ		matched	KOIAIB_00991	971752	True	ycbJ	Uncharacterized protein YcbJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	983623	b0926	983075	mepk	peptidoglycan L,D-endopeptidase	3.4.-.-	matched	KOIAIB_00998	983075	True	ycbK	Uncharacterized protein YcbK		False	n/a	False	hypothetical_where_known
+NC_000913.3	-	1023902	b0961	1024348	yccf	PF03733 family inner membrane protein YccF		matched	KOIAIB_01034	1024348	True	yccF	YccF domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1027111	b0964	1027773	csgi;ycct	curli synthesis inhibitor		matched	KOIAIB_01037	1027773	True	yccT	DUF2057 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1028359	b0965	1027946	yccu	putative HspQ acetyl donor		matched	KOIAIB_01038	1027946	True	yccU	Uncharacterized protein YccU		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1047945	b0985	1048691	gfcc	capsule biosynthesis GfcC family protein		matched	KOIAIB_01059	1048691	True	gfcC	Uncharacterized protein GfcC		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1050963	b0989	1051175	csph	CspA family protein CspH		missed										missed
+NC_000913.3	+	1051872	b4723	1051684	ymcf	protein YmcF		missed										missed
+NC_000913.3	+	1052077	b0991	1051847	ymce	protein YmcE		missed										missed
+NC_000913.3	+	1052240	b4517	1052067	gnsa	putative phosphatidylethanolamine synthesis regulator GnsA		matched	KOIAIB_01065	1052067	True	gnsA	Protein GnsA		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1068254	b4518	1068081	ymdf	stress-induced bacterial acidophilic repeat motifs-containing protein YmdF		matched	KOIAIB_01080	1068081	True	ymdF	Uncharacterized protein YmdF		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1144822	b1085	1144502	yceq	DUF2655 domain-containing protein YceQ		missed										missed
+NC_000913.3	-	1196867	b1137	1197532	ymfd	putative SAM-dependent methyltransferase YmfD		matched	KOIAIB_01213	1197532	True	ymfD	Uncharacterized protein YmfD		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1201069	b1142	1201380	ymfh	putative protein YmfH		missed										missed
+NC_000913.3	+	1204160	b1148	1203822	ymfm	cell division inhibitor YmfM		matched	KOIAIB_01223	1203822	True	ymfM	Uncharacterized protein YmfM		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1205537	b1149	1204170	ymfn	chimeric replication protein/phage terminase YmfN		matched	KOIAIB_01224	1204170	True	ymfN	Protein YmfN		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1205731	b1150	1205549	ymfr	IPR020297 domain-containing protein YmfR		matched	KOIAIB_01225	1205549	True	ymfR	Uncharacterized protein YmfR		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1208545	b1155	1208132	tfap;ymfs	putative tail fiber assembly protein TfaP		matched	KOIAIB_01230	1208171	False	ymfS	Uncharacterized protein YmfS		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1211680	b1160	1212003	iram	anti-adaptor protein IraM		missed										missed
+NC_000913.3	-	1212540	b4739	1212650	ymgl	protein YmgL		missed										missed
+NC_000913.3	+	1216340	b1165	1216068	ymga	putative two-component system connector protein YmgA		missed										missed
+NC_000913.3	-	1222990	b4593	1223163	ymgi	uncharacterized protein YmgI		missed										missed
+NC_000913.3	+	1223449	b4594	1223264	ymgj	uncharacterized protein YmgJ		missed										missed
+NC_000913.3	+	1227427	b4816	1227368	ymgn	protein YmgN		missed										missed
+NC_000913.3	+	1231186	b1183	1230767	umud	DNA polymerase V protein UmuD	3.4.21.-	matched	KOIAIB_01259	1230767	True	umuD	Protein UmuD	3.4.21.-	True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1240463	b4740	1240260	ymgm	protein YmgM		missed										missed
+NC_000913.3	+	1286984	b1228	1286709	ychs	putative uncharacterized protein YchS		missed										missed
+NC_000913.3	-	1287087	b1229	1287176	tpr	protamine-like protein		missed										missed
+NC_000913.3	-	1288674	b1233	1289132	ychj	NTF2-like domain-containing protein YchJ		matched	KOIAIB_01315	1289132	True	ychJ	YchJ family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1308961	b4595	1308788	yciy	uncharacterized protein YciY		missed										missed
+NC_000913.3	-	1312920	b1255	1313663	ycic	putative inner membrane protein		matched	KOIAIB_01340	1313663	True	yciC	YciC family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1315856	b1259	1316035	ycig	stress-induced bacterial acidophilic repeat motifs-containing protein YciG		matched	KOIAIB_01344	1316035	True	yciG	Uncharacterized protein YciG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1344775	b4772	1344647	ymid	protein YmiD		missed										missed
+NC_000913.3	+	1346900	b4672	1346796	ymib	putative protein YmiB		missed										missed
+NC_000913.3	-	1348980	b1287	1350107	yciw	putative peroxidase YciW		matched	KOIAIB_01377	1350107	True	yciW	Uncharacterized protein YciW		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1351407	b1289	1351760	ycjd	DUF559 domain-containing protein YcjD		missed										missed
+NC_000913.3	-	1359177	b4742	1359341	ymje	protein YmjE		missed										missed
+NC_000913.3	-	1390933	b1327	1391853	ycjy	putative hydrolase YcjY		matched	KOIAIB_01418	1391853	True	ycjY	Uncharacterized protein YcjY		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1413733	b1348	1413927	ralr	endodeoxyribonuclease toxin RalR	3.1.-.-	missed										missed
+NC_000913.3	-	1417838	b4526	1418008	ydae	zinc-binding protein		matched	KOIAIB_01447	1418008	True	ydaE	Uncharacterized protein YdaE		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1421106	b1358	1420684	ydat	DNA binding transcriptional activator YdaT		matched	KOIAIB_01454	1420684	True	ydaT	Uncharacterized protein YdaT		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1422729	b1360	1421983	ydav	putative ATP-binding protein YdaV		matched	KOIAIB_01456	1421983	True	ydaV	Uncharacterized protein YdaV		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1423585	b4528	1423400	rzor	putative prophage outer membrane lipoprotein RzoR		missed										missed
+NC_000913.3	+	1427482	b1368	1426454	ynaa	putative prophage tail length tape measure domain-containing protein YnaA		matched	KOIAIB_01462	1426454	True	ynaA	Protein YnaA		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1434293	b4744	1434406	ynam	protein YnaM		missed										missed
+NC_000913.3	+	1445690	b1381	1443051	ydbh	putative intermembrane phospholipid transport protein YdbH		matched	KOIAIB_01477	1443051	True	ydbH	YdbH family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1445872	b1382	1445687	ynbe	putative intermembrane phospholipid transport lipoprotein YnbE		matched	KOIAIB_01478	1445687	True	ydbH	YdbH family protein		False	n/a	False	hypothetical_where_known
+NC_000913.3	+	1479122	b1409	1478226	ynbb	putative CDP-diglyceride synthase	2.7.7.41	matched	KOIAIB_01506	1478226	True	ynbB	Uncharacterized protein YnbB		True	False	False	hypothetical_where_known
+NC_000913.3	+	1480895	b1410	1479138	ynbc	hydrolase/methyltransferase domain-containing protein YnbC		matched	KOIAIB_01507	1479138	True	ynbC	Uncharacterized protein YnbC		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1482201	b1411	1480909	ynbd	phosphatase domain-containing protein YnbD		matched	KOIAIB_01508	1480885	False	ynbD	Uncharacterized protein YnbD		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1491922	b4428	1492071	hokb	toxin HokB		missed										missed
+NC_000913.3	-	1499469	b1428	1500449	ydck	putative acyltransferase YdcK	2.3.1.-	matched	KOIAIB_01528	1500449	True	ydcK	YdcK family protein	2.3.1.-	True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1517099	b4598	1517194	yncl	uncharacterized protein YncL		missed										missed
+NC_000913.3	+	1524368	b1452	1523307	ynce	PQQ-like domain-containing protein YncE		matched	KOIAIB_01553	1523307	True	yncE	Uncharacterized protein YncE		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1530319	b4745	1530504	ynco	protein YncO		missed										missed
+NC_000913.3	-	1533282	b1462	1533851	yddh	flavin reductase-like protein YddH		matched	KOIAIB_01562	1533851	True	yddH	Uncharacterized protein YddH		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1575247	b1495	1577619	yddb	putative TonB-dependent receptor YddB		matched	KOIAIB_01596	1577619	True	yddB	Uncharacterized protein YddB		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1579667	b4747	1579545	ynep	protein YneP		missed										missed
+NC_000913.3	+	1622741	b4599	1622646	mgts	small protein MgtS		matched	KOIAIB_01635	1622646	True	mgtS	protein MgtS		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1622845	b4775	1622741	mgtt	protein MgtT		missed										missed
+NC_000913.3	+	1633003	b4748	1632890	ynft	protein YnfT		missed										missed
+NC_000913.3	+	1636989	b4533	1636756	ynfo	DUF3950 domain-containing protein YnfO		missed										missed
+NC_000913.3	-	1637954	b1551	1638109	ynfn	protein YnfN		missed										missed
+NC_000913.3	-	1638256	b4724	1638444	ynfq	protein YnfQ		missed										missed
+NC_000913.3	-	1639080	b4689	1639334	rzoq	putative lipoprotein RzoQ		missed										missed
+NC_000913.3	+	1640975	b4776	1640805	ynfu	putative zinc-binding protein YnfU		missed										missed
+NC_000913.3	+	1646202	b1565	1645897	ydfv	protein YdfV		missed										missed
+NC_000913.3	-	1647174	b1567	1647323	ydfw	protein YdfW		missed										missed
+NC_000913.3	-	1652728	b4534	1652838	ynfp	protein YnfP		missed										missed
+NC_000913.3	-	1655347	b1582	1655673	ynfa	putative transporter YnfA		matched	KOIAIB_01687	1655673	True	ynfA	YnfA family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1673608	b4777	1673709	mdtu;ydgv	protein MdtU		missed										missed
+NC_000913.3	+	1704676	b4409	1704551	blr	beta-lactam resistance protein		missed										missed
+NC_000913.3	+	1722121	b1644	1721264	ydhj	putative membrane fusion protein YdhJ		matched	KOIAIB_01751	1721264	True	ydhJ	Uncharacterized protein YdhJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1744871	b1664	1746127	ydhq	putative adhesin-related protein YdhQ		matched	KOIAIB_01773	1746127	True	ydhQ	Protein YdhQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1755690	b4817	1755496	ynhh	protein YnhH		missed										missed
+NC_000913.3	-	1805325	b1722	1806083	ydiy	acid-inducible putative outer membrane protein YdiY		matched	KOIAIB_01837	1806083	True	ydiY	Uncharacterized protein YdiY		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1807690	b1724	1807400	ydiz	putative endoribonuclease YdiZ		matched	KOIAIB_01839	1807400	True	ydiZ	Uncharacterized protein YdiZ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1834793	b1751	1834116	ydjy	4Fe-4S ferredoxin-type domain-containing protein YdjY		matched	KOIAIB_01868	1834116	True	ydjY	Uncharacterized protein YdjY		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1836063	b1753	1835515	ynja	AhpD-like domain-containing protein YnjA		matched	KOIAIB_01870	1835515	True	ynjA	Uncharacterized protein YnjA		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1837239	b1754	1836073	ynjb	putative ABC transporter periplasmic binding protein YnjB		matched	KOIAIB_01871	1836073	True	ynjB	Protein YnjB		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1856933	b1773	1857769	ydji	L-glycero-L-galacto-octuluronate-1-phosphate aldolase	4.1.2.-	matched	KOIAIB_01890	1857769	True	ydjI	Uncharacterized protein YdjI	4.1.2.13	True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1874078	b1788	1874182	yoai	protein YoaI		missed										missed
+NC_000913.3	-	1877278	b1793	1877532	yoaf	DUF333 domain-containing lipoprotein YoaF		matched	KOIAIB_01909	1877532	True	yoaF	DUF333 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1878871	b4676	1878773	yoak	putative membrane protein YoaK		missed										missed
+NC_000913.3	-	1894552	b1811	1894731	yoah	UFP0181 family protein YoaH		matched	KOIAIB_01929	1894731	True	yoaH	YoaH family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1901573	b4751	1901731	yoal	protein YoaL		missed										missed
+NC_000913.3	+	1905259	b1820	1904801	yobd	DUF986 domain-containing inner membrane protein YobD		matched	KOIAIB_01938	1904801	True	yobD	DUF986 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	1907448	b1824	1907591	yobf	DUF2527 domain-containing protein YobF		missed										missed
+NC_000913.3	-	1908623	b1826	1908766	mgrb	PhoQ kinase inhibitor		missed										missed
+NC_000913.3	-	1924595	b1841	1924969	yoba	copper-binding protein		matched	KOIAIB_01961	1924969	True	yobA	CopC domain-containing protein YobA		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1926096	b1843	1925440	yobb	putative carbon-nitrogen hydrolase family protein YobB		matched	KOIAIB_01963	1925440	True	yobB	Uncharacterized protein YobB		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1930034	b1847	1930390	yebf	secreted protein YebF		matched	KOIAIB_01968	1930390	True	yebF	protein YebF		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	1988545	b1904	1988222	yecr	lipoprotein YecR		matched	KOIAIB_02032	1988222	True	yecR	Uncharacterized protein YecR		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	1990954	b1908	1991619	yeca	putative Fe-binding protein YecA		matched	KOIAIB_02036	1991619	True	yecA	UPF0149 family protein YecA		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	1995831	b4752	1995655	yecu	protein YecU		missed										missed
+NC_000913.3	+	2076754	b2002	2076308	yees	RadC-like JAB domain-containing protein YeeS		matched	KOIAIB_02131	2076308	True	yeeS	UPF0758 protein YeeS		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2078931	b4538	2078575	yoef	putative uncharacterized protein YoeF		missed										missed
+NC_000913.3	-	2079032	b2007	2079361	tmar	PTS system regulator TmaR		matched	KOIAIB_02136	2079361	True	yeeX	DUF496 domain-containing protein		False	n/a	False	hypothetical_where_known
+NC_000913.3	-	2088304	b2016	2089128	yeez	putative epimerase YeeZ		matched	KOIAIB_02148	2089128	True	yeeZ	Protein YeeZ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2139485	b2063	2137902	yegh	inner membrane protein YegH		matched	KOIAIB_02198	2137902	True	yegH	UPF0053 protein YegH		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	2152469	b2073	2153128	yegl	IPR002035 domain-containing protein YegL		matched	KOIAIB_02208	2153128	True	yegL	Uncharacterized protein YegL		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2181099	b2099	2180095	yegu	putative ADP-ribosylglycohydrolase YegU	3.2.2.-	matched	KOIAIB_02240	2180095	True	yegU	Uncharacterized protein YegU		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	2182833	b2102	2183651	yegx	putative glycosyl hydrolase YegX		matched	KOIAIB_02243	2183651	True	yegX	Uncharacterized protein YegX		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2205684	b2119	2204596	yehl	putative AAA(+) MoxR family ATPase YehL		matched	KOIAIB_02262	2204596	True	yehL	Uncharacterized protein YehL		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2209103	b2121	2207967	yehp	VWA domain-containing protein YehP		matched	KOIAIB_02264	2207967	True	yehP	Uncharacterized protein YehP		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2210944	b2122	2209100	yehq	SWIM zinc finger domains-containing protein YehQ		matched	KOIAIB_02265	2209100	True	yehQ	Protein YehQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2265041	b4502	2265295	yeiw	putative metal-chelating domain-containing protein YeiW		matched	KOIAIB_02316	2265295	True	yeiW	UPF0153 protein YeiW		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2274178	b2177	2272364	yeja	oligopeptide ABC transporter periplasmic binding protein YejA		matched	KOIAIB_02323	2272364	True	yejA	Uncharacterized protein YejA		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	2328148	b2226	2329797	yfaq	tandem DUF2300 domain-containing protein YfaQ		matched	KOIAIB_02382	2329797	True	yfaQ	Uncharacterized protein YfaQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2344594	b4605	2344737	ypab	protein YpaB		missed										missed
+NC_000913.3	-	2383995	b2270	2385722	yfbk	IPR002035/DUF3520 domain-containing protein YfbK		matched	KOIAIB_02430	2385722	True	yfbK	Uncharacterized protein YfbK		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2386831	b2271	2385860	yfbl	putative peptidase YfbL		matched	KOIAIB_02431	2385860	True	yfbL	Uncharacterized protein YfbL		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2468217	b2350	2467855	yfdg	putative bactoprenol-linked glucose translocase		missed										missed
+NC_000913.3	+	2470462	b2352	2469131	yfdi	serotype-specific glucosyl transferase YfdI		matched	KOIAIB_02512	2469131	True	yfdI	Uncharacterized protein YfdI		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2470497	b4780	2470643	yode	toxic protein YodE		missed										missed
+NC_000913.3	-	2471077	b2354	2471517	yfdk	putative tail fiber assembly protein YfdK		matched	KOIAIB_02514	2471517	True	yfdK	Uncharacterized protein YfdK		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2476234	b4545	2476094	ypdj	putative uncharacterized protein YpdJ		missed										missed
+NC_000913.3	+	2518811	b2398	2518467	yfec	DNA-binding transcriptional dual regulator YfeC		matched	KOIAIB_02562	2518452	False	yfeC	Uncharacterized protein YfeC		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2519205	b2399	2518813	yfed	putative DNA-binding transcriptional regulator YfeD		matched	KOIAIB_02563	2518834	False	yfeD	Uncharacterized protein YfeD		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2525891	b2408	2525127	yfen	putative outer membrane porin YfeN		matched	KOIAIB_02572	2525127	True	yfeN	Uncharacterized protein YfeN		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2629481	b2504	2629290	yfgg	Ni/Co stress response protein YfgG		matched	KOIAIB_02677	2629308	False	yfgG	Uncharacterized protein YfgG		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	2630865	b2506	2630326	yfgi	nalidixic acid resistance protein YfgI		matched	KOIAIB_02679	2630326	True	yfgI	Uncharacterized protein YfgI		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2635599	b2510	2635814	yfgj	zinc ribbon domain-containing protein YfgJ		matched	KOIAIB_02683	2635814	True	yfgJ	Uncharacterized protein YfgJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2654126	b4812	2654001	timp	putative toxic protein TimP		missed										missed
+NC_000913.3	+	2665244	b2534	2664390	yfhr	putative peptidase		matched	KOIAIB_02712	2664390	True	yhfR	Uncharacterized protein YfhR		False	n/a	True	hypothetical_where_known
+NC_000913.3	-	2673816	b2544	2674688	yphb	putative aldose 1-epimerase YphB		matched	KOIAIB_02722	2674688	True	yphB	Uncharacterized protein YphB		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2684056	b2550	2682863	yphh	putative DNA-binding transcriptional regulator, NAGC-like		matched	KOIAIB_02728	2682863	True	yphH	Uncharacterized protein YphH		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2710009	b4725	2710164	rsed	rpoE leader peptide		missed										missed
+NC_000913.3	+	2741725	b2602	2741360	yfil	DUF2799 domain-containing lipoprotein YfiL		matched	KOIAIB_02790	2741363	False	yfiL	Uncharacterized protein YfiL		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2744107	b2605	2743625	yfib	lipoprotein YfiB		matched	KOIAIB_02793	2743625	True	yfiB	OmpA family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	2754008	b2618	2754298	ratb;yfjf	putative component of the Rsx system		matched	KOIAIB_02805	2754298	True	ratB	RnfH family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	2765513	b2629	2765776	yfjm	protein YfjM		missed										missed
+NC_000913.3	+	2768573	b2632	2767710	yfjp	putative GTP-binding protein YfjP		matched	KOIAIB_02818	2767710	True	yfjP	Uncharacterized protein YfjP		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2776377	b2643	2775919	lfga;yfjx	putative antirestriction protein		matched	KOIAIB_02828	2775919	True	yfjX	Uncharacterized protein YfjX		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2776868	b2644	2776386	lfgb;yfjy	CP4-57 prophage protease		matched	KOIAIB_02829	2776386	True	yfjY	UPF0758 protein YfjY		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2800475	b2672	2800146	ygam	tail-anchored inner membrane protein YgaM		matched	KOIAIB_02853	2800146	True	ygaM	Uncharacterized protein YgaM		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	2873014	b2749	2873337	ygbe	DUF3561 domain-containing inner membrane protein YgbE		matched	KOIAIB_02933	2873337	True	ygbE	DUF3561 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	2894771	b2768	2894196	ygcp	putative anti-terminator regulatory protein		matched	KOIAIB_02953	2894196	True	ygcP	Uncharacterized protein YgcP		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	2905697	b4682	2905557	yqcg	cell envelope stress response protein YqcG		matched	KOIAIB_02962	2905557	True	yqcG	Uncharacterized protein YqcG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2906583	b2778	2905711	ygcg	TPM domain-containing protein YgcG		matched	KOIAIB_02963	2905711	True	ygcG	UPF0603 protein YgcG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2988168	b2846	2987536	yqeh	putative LuxR family transcriptional regulator YqeH		matched	KOIAIB_03037	2987536	True	yqeH	Uncharacterized protein YqeH		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2989311	b2847	2988502	yqei	putative transcriptional regulator YqeI		matched	KOIAIB_03039	2988502	True	yqeI	Uncharacterized protein YqeI		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	2991759	b2851	2991268	ygeg	TPR repeat-containing putative chaperone YgeG		matched	KOIAIB_03044	2991268	True	ygeG	Uncharacterized protein YgeG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3021319	b2880	3020540	ygfm	putative oxidoreductase		matched	KOIAIB_03071	3020540	True	ygfM	Uncharacterized protein YgfM		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3076179	b4465	3077456	yggp	putative zinc-binding dehydrogenase YggP		matched	KOIAIB_03128	3077456	True	yggP	Uncharacterized protein YggP	1.1.1.-	True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3085920	b2939	3086051	yqgb	acid stress response protein YqgB		missed										missed
+NC_000913.3	-	3086145	b4784	3086288	yqgg	protein YqgG		missed										missed
+NC_000913.3	-	3086399	b2941	3086650	yqgd	DUF2684 domain-containing protein YqgD		missed										missed
+NC_000913.3	+	3086402	b2940	3086187	yqgc	protein YqgC		missed										missed
+NC_000913.3	-	3094100	b2950	3095080	yggr	Type II/IV secretion system family protein		matched	KOIAIB_03143	3095080	True	yggR	Uncharacterized protein YggR		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	3101807	b2959	3102133	yggl	putative ribosome assembly factor YggL		matched	KOIAIB_03153	3102133	True	yggL	Uncharacterized protein YggL		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	3111325	b4786	3111266	yqhj	protein YqhJ		missed										missed
+NC_000913.3	-	3129043	b2981	3130215	ygho	putative DNA-binding transcriptional regulator YghO		matched	KOIAIB_03177	3130179	False	yghO	Protein YghO		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3171879	b3027	3172211	ygiz	DUF2645 domain-containing inner membrane protein YgiZ		missed										missed
+NC_000913.3	-	3183381	b4756	3183551	yqid	protein YqiD		missed										missed
+NC_000913.3	+	3191696	b3048	3190632	yqii	putative fimbrial protein YqiI		matched	KOIAIB_03243	3190632	True	yqiI	Uncharacterized protein YqiI		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3249680	b3098	3249375	yqjd	ribosome- and membrane-associated DUF883 domain-containing protein YqjD		matched	KOIAIB_03301	3249375	True	yqjD	Uncharacterized protein YqjD		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3255341	b4470	3256651	cyua;yham	L-cysteine desulfidase		matched	KOIAIB_03311	3256651	True	yhaM	UPF0597 protein YhaM		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3267598	b3119	3267380	tdcr	DNA-binding transcriptional activator TdcR		missed										missed
+NC_000913.3	-	3297098	b3151	3298138	yraq	permease family protein YraQ		matched	KOIAIB_03350	3298138	True	yraQ	UPF0718 protein YraQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3299472	b3154	3299915	yhbp	putative FMN binding protein YhbP		matched	KOIAIB_03353	3299915	True	yhbP	YhbP family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	3361940	b3214	3361176	gltf	periplasmic protein GltF		matched	KOIAIB_03417	3361176	True	gltF	Protein GltF		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3385857	b3239	3386129	yhco	putative barnase inhibitor		matched	KOIAIB_03443	3386129	True	yhcO	Uncharacterized protein YhcO		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	3392458	b4472	3396258	yhdp	phospholipid transport factor YhdP		matched	KOIAIB_03452	3396258	True	yhdP	AsmA2 domain-containing protein YhdP		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	3418611	b3267	3418390	yhdv	lipoprotein YhdV		matched	KOIAIB_03473	3418390	True	yhdV	Uncharacterized protein YhdV		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3429790	b3279	3429236	yrda	hexapeptide repeat-containing protein YrdA		matched	KOIAIB_03487	3429236	True	yrdA	Protein YrdA	4.2.1.-	True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3431420	b3283	3431962	yrdd	putative DNA topoisomerase		matched	KOIAIB_03491	3431962	True	yrdD	Uncharacterized protein YrdD		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3431991	b3284	3432464	smg	DUF494 domain-containing protein Smg		matched	KOIAIB_03492	3432464	True	smg	DUF494 domain-containing protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	3475718	b3346	3476440	yheo	DNA-binding transcriptional regulator YheO		matched	KOIAIB_03554	3476440	True	yheO	Uncharacterized protein YheO		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3488893	b3358	3486791	yhfk	putative transporter YhfK		matched	KOIAIB_03567	3486803	False	yhfK	Uncharacterized protein YhfK		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3499615	b3369	3499448	yhfl	DUF4223 domain-containing lipoprotein YhfL		matched	KOIAIB_03579	3499448	True	yhfL	Uncharacterized protein YhfL		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3504935	b3376	3506020	yhfs	putative aminotransferase YhfS		matched	KOIAIB_03585	3506020	True	yhfS	Uncharacterized protein YhfS		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3509813	b3381	3510976	yhfx	putative PLP-binding protein YhfX		matched	KOIAIB_03590	3510976	True	yhfX	Uncharacterized protein YhfX		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3511060	b3382	3511422	yhfy	PRD domain-containing protein YhfY		matched	KOIAIB_03591	3511422	True	yhfY	Uncharacterized protein YhfY		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3530715	b3402	3532439	yhge	putative transport protein YhgE		matched	KOIAIB_03611	3532439	True	yhgE	Uncharacterized protein YhgE		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3539706	b3407	3537385	yhgf	RNA-binding protein YhgF		matched	KOIAIB_03616	3537385	True	yhgF	Protein YhgF		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3573679	b4789	3573708	yhgp	protein YhgP		missed										missed
+NC_000913.3	+	3583041	b3442	3581863	yhhz	putative endonuclease YhhZ		matched	KOIAIB_03651	3581863	True	yhhZ	Uncharacterized protein YhhZ		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	3585043	b3446	3584759	yrhb	putative heat shock chaperone		matched	KOIAIB_03656	3584759	True	yrhB	Uncharacterized protein YrhB		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3629535	b3487	3630602	yhii	putative membrane fusion protein YhiI		matched	KOIAIB_03698	3630602	True	yhiI	Uncharacterized protein YhiI		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3630665	b4790	3630778	yhiy	protein YhiY		missed										missed
+NC_000913.3	-	3636208	b3492	3637410	rdsa;yhin	putative oxidoreductase YhiN	1.3.1.-	matched	KOIAIB_03703	3637410	True	yhiN	Uncharacterized protein YhiN		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	3640643	b4792	3640696	yrib	protein YriB		missed										missed
+NC_000913.3	-	3647705	b4613	3647788	dinq	membrane toxin DinQ		missed										missed
+NC_000913.3	-	3655255	b3508	3655902	yhid	inner membrane protein YhiD		matched	KOIAIB_03724	3655830	False	yhiD	MgtC/SapB family protein		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	3680444	b3527	3681940	yhjj	peptidase M16 family protein YhjJ		matched	KOIAIB_03746	3681940	True	yhjJ	Protein YhjJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3712236	b3548	3712934	yhjy	putative outer membrane protein YhjY		matched	KOIAIB_03771	3712934	True	yhjY	Uncharacterized protein YhjY		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3767179	b3594	3766337	yiba	putative lyase containing HEAT-repeat		matched	KOIAIB_03824	3766337	True	yibA	Protein YibA		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3768638	b3596	3768177	yibg	tetratricopeptide-like domain-containing protein YibG		matched	KOIAIB_03826	3768177	True	yibG	Uncharacterized protein YibG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3769680	b4615	3769345	yibv	PF15596 family protein YibV		missed										missed
+NC_000913.3	-	3784584	b3611	3785015	yibn	putative sulfurtransferase YibN		matched	KOIAIB_03842	3785015	True	yibN	Uncharacterized protein YibN		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3789060	b3614	3788101	yibq	divergent polysaccharide deacetylase domain-containing protein YibQ		matched	KOIAIB_03845	3788101	True	yibQ	Uncharacterized protein YibQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3797772	b4795	3797846;3798014	yibx	protein YibX		missed										missed
+NC_000913.3	-	3798039	b4796	3798149	yiby	protein YibY		missed										missed
+NC_000913.3	-	3838642	b4797	3838701	yicu	protein YicU		missed										missed
+NC_000913.3	-	3852890	b3672	3852988	ivbl	ilvBN operon leader peptide		missed										missed
+NC_000913.3	+	3868060	b3688	3867728	yidq	DUF1375 domain-containing putative lipoprotein YidQ		matched	KOIAIB_03924	3867800	False	yidQ	Uncharacterized protein YidQ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3868062	b3689	3869309	yidr	DUF3748 domain-containing galacturonate catabolism protein YidR		matched	KOIAIB_03925	3869276	False	yidR	Uncharacterized protein YidR		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3876094	b3696	3875438	yidx	putative lipoprotein YidX		matched	KOIAIB_03932	3875438	True	yidX	Uncharacterized protein YidX		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3885073	b4557	3884816	yidd	membrane protein insertion efficiency factor		missed										missed
+NC_000913.3	+	3894630	b3712	3893881	yiee	putative phosphopantetheinyl transferase		matched	KOIAIB_03951	3893881	True	yieE	Uncharacterized protein YieE		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	3899408	b3719	3900577	yiel	putative hydrolase YieL		matched	KOIAIB_03958	3900577	True	yieL	Uncharacterized protein YieL		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	3950420	b3766	3950322	ilvl	ilvXGMEDA operon leader peptide		missed										missed
+NC_000913.3	+	3966332	b3782	3966231	rhol	rho operon leader peptide		missed										missed
+NC_000913.3	+	3994335	b3808	3993850	yzcx	protein YzcX		missed										missed
+NC_000913.3	+	4001274	b4799	4001218	ysgd	protein YsgD		missed										missed
+NC_000913.3	+	4062145	b3873	4061165	yihm	putative TIM barrel domain-containing protein YihM		matched	KOIAIB_04125	4061165	True	yihM	Uncharacterized protein YihM		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4079509	b3889	4079291	yiie	putative DNA-binding transcriptional regulator YiiE		matched	KOIAIB_04142	4079291	True	yiiE	Uncharacterized protein YiiE		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4088057	b3896	4087002	yiig	DUF3829 domain-containing lipoprotein YiiG		matched	KOIAIB_04149	4087002	True	yiiG	Uncharacterized protein YiiG		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4213617	b4011	4213234	yjaa	stress response protein		matched	KOIAIB_04275	4213234	True	yjaA	Uncharacterized protein YjaA		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4229362	b4020	4227731	yjbb	putative inorganic phosphate export protein YjbB		matched	KOIAIB_04285	4227731	True	yjbB	Uncharacterized protein YjbB		True	n/a	False	hypothetical_where_known
+NC_000913.3	+	4237634	b4028	4236897	yjbg	capsule biosynthesis GfcC family protein YjbG		matched	KOIAIB_04295	4236897	True	yjbG	Uncharacterized protein YjbG		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4239777	b4620	4240055	yjbt	PF17089 family protein YjbT		missed										missed
+NC_000913.3	+	4259446	b4045	4259237	yjbj	putative stress response protein YjbJ		matched	KOIAIB_04317	4259237	True	yjbJ	UPF0337 protein YjbJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4296436	b4078	4297125	yjco	Sel1 repeat-containing protein YjcO		matched	KOIAIB_04359	4297125	True	yjcO	Uncharacterized protein YjcO		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	4304128	b4622	4304403	ytca	putative lipoprotein YtcA		matched	KOIAIB_04364	4304403	True	ytcA	Uncharacterized protein YtcA		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4326399	b4108	4326734	yjdm	zinc ribbon domain-containing protein YjdM	3.11.1.2	matched	KOIAIB_04396	4326734	True	yjdM	Protein YjdM		True	False	False	hypothetical_where_known
+NC_000913.3	+	4330238	b4110	4329360	rdcb	regulator of diguanylate cyclase RdcB		matched	KOIAIB_04398	4329360	True	yjcZ	Uncharacterized protein YjcZ		False	n/a	False	hypothetical_where_known
+NC_000913.3	+	4352357	b4127	4352085	yjdj	putative N-acetyltransferase YjdJ		matched	KOIAIB_04417	4352085	True	yjdJ	Uncharacterized protein YjdJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4373162	b4144	4372809	yjei	DUF4156 domain-containing lipoprotein YjeI		matched	KOIAIB_04436	4372809	True	yjeI	Uncharacterized protein YjeI		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4439793	b4217	4439587	ytfk	stringent response modulator YtfK		matched	KOIAIB_04513	4439587	True	ytfK	Uncharacterized protein YtfK		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4472399	b4246	4472533	pyrl	pyrBI operon leader peptide		missed										missed
+NC_000913.3	+	4486099	b4822	4486043	ytgb	protein YtgB		missed										missed
+NC_000913.3	+	4486155	b4800	4486105	ytga	protein YtgA		missed										missed
+NC_000913.3	+	4501589	b4277	4501260	yjgz	uncharacterized protein YjgZ		missed										missed
+NC_000913.3	+	4518802	b4294	4518527	insa7	IS1 repressor protein InsA		missed										missed
+NC_000913.3	-	4528111	b4303	4528917	sgcq	putative nucleoside triphosphatase		matched	KOIAIB_04604	4528917	True	sgcQ	BtpA family protein SgcQ		True	n/a	False	hypothetical_where_known
+NC_000913.3	-	4532437	b4306	4533183	yjhp	putative methyltransferase YjhP		matched	KOIAIB_04608	4533183	True	yjhP	Uncharacterized protein YjhP		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4533796	b4566	4534053	topai;yjhx	toxin of the TopAI-YjhQ toxin-antitoxin system, TopA inhibitor		matched	KOIAIB_04610	4534053	True	yjhX	UPF0386 protein YjhX		True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4536695	b4802	4536597	ythb	protein YthB		missed										missed
+NC_000913.3	+	4556797	b4721	4556654	ytid	protein YtiD		missed										missed
+NC_000913.3	-	4561497	b4332	4562675	yjij	putative transporter YjiJ		matched	KOIAIB_04637	4562675	True	yjiJ	Uncharacterized protein YjiJ		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4563922	b4334	4564689	yjil	putative ATPase, activator of (R)-hydroxyglutaryl-CoA dehdratase		matched	KOIAIB_04640	4564689	True	yjiL	Uncharacterized protein YjiL		True	n/a	True	hypothetical_where_known
+NC_000913.3	-	4568692	b4823	4568727	ytie	protein YtiE		missed										missed
+NC_000913.3	+	4613484	b4377	4612411	yjju	putative patatin-like phospholipase YjjU	3.1.1.-	matched	KOIAIB_04685	4612411	True	yjjU	Uncharacterized protein YjjU	3.1.1.-	True	n/a	True	hypothetical_where_known
+NC_000913.3	+	4640542	b4402	4640402	yjjy	uncharacterized protein YjjY		missed										missed
+NC_000913.3	+	4640771	b4824	4640718	ytje	protein YtjE		missed										missed

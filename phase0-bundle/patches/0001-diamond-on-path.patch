@@ -1,0 +1,24 @@
+--- a/Structural_annotation/homology_annotator.py
++++ b/Structural_annotation/homology_annotator.py
+@@ -19,7 +19,7 @@
+ 
+     def __init__(self, protein_path, diamond_db_path, output_dir, prefix="genome",
+                  min_identity=40.0, min_coverage=80.0, evalue=1e-5, max_targets=5,
+-                 threads=8, conda_env="diamond"):
++                 threads=8, conda_env=None):
+         """
+         protein_path:    protein FASTA from GenePredictor (the .faa file)
+         diamond_db_path: DIAMOND database, e.g. databases/swissprot (without .dmnd)
+@@ -53,8 +53,10 @@
+ 
+         self.output_dir.mkdir(parents=True, exist_ok=True)
+ 
+-        cmd = [
+-            "conda", "run", "-n", self.conda_env,
++        cmd = []
++        if self.conda_env:
++            cmd += ["conda", "run", "-n", self.conda_env]
++        cmd += [
+             "diamond", "blastp",
+             "--query", str(self.protein_path),
+             "--db", str(self.diamond_db_path),

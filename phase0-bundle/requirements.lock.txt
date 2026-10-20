@@ -1,0 +1,4 @@
+# Exact versions recorded in Phase-0/pipeline/PROVENANCE.md for the 2026-10-16 run.
+biopython==1.88
+pyhmmer==0.12.3
+pyrodigal==3.7.1

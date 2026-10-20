@@ -1,0 +1,132 @@
+Started: 2026-10-19T16:45:33Z
+Server version: {"toolVersion": "1.12.2", "dbVersion": "6.0", "backendVersion": "1.1.0"}
+Job ID: 2e50d865-5033-420e-b7d6-a3e7102e6e73
+Uploaded reference/ncbi_dataset/data/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna
+Uploaded bakta/replicons.tsv
+Job started with config: {"completeGenome": true, "translationTable": 11, "keepContigHeaders": true, "minContigLength": 1, "compliant": false}
+[17:45:46] status: INIT
+Bakta Command: bakta --tmp-dir /cache --threads 8 --prefix result -o /results --db /db/db --replicons /data/replicons.tsv --complete --keep-contig-headers --gram ? /data/fastadata.fasta --force
+Parse genome sequences...
+	imported: 1
+	filtered & revised: 1
+	chromosomes: 1
+{"result":{"podName":"bakta-job-2e50d865-5033-420e-b7d6-a3e7102e6e73-kf5sf"}}
+Start annotation...
+predict tRNAs...
+	found: 89
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+[17:46:17] status: RUNNING
+	found: 22
+predict ncRNAs...
+[17:46:47] status: RUNNING
+[17:47:18] status: RUNNING
+	found: 232
+predict ncRNA regions...
+	found: 57
+predict CRISPR arrays...
+	found: 2
+predict & annotate CDSs...
+	predicted: 4319 
+	discarded length: 0
+	discarded spurious: 10
+	revised translational exceptions: 3
+	detected IPSs: 4246
+[17:47:49] status: RUNNING
+[17:48:19] status: RUNNING
+[17:48:50] status: RUNNING
+[17:49:20] status: RUNNING
+[17:49:51] status: RUNNING
+	found PSCs: 49
+	found PSCCs: 3
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 11
+		protein sequences: 778
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+[17:50:21] status: RUNNING
+[17:50:52] status: RUNNING
+[17:51:22] status: RUNNING
+[17:51:53] status: RUNNING
+		candidates: 22
+		verified: 5
+	analyze hypothetical proteins: 44
+		detected Pfam hits: 2 
+		calculated proteins statistics
+	revise special cases...
+detect & annotate sORF...
+[17:52:24] status: RUNNING
+	detected: 56619
+	discarded due to overlaps: 45813
+	discarded spurious: 12
+	detected IPSs: 87
+	found PSCs: 11
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 89
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 2
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+	selected: 4777
+improve annotations...
+	revised gene symbols: 46
+{"result":{"podName":"bakta-job-2e50d865-5033-420e-b7d6-a3e7102e6e73-kf5sf"}}
+Genome statistics:
+	Genome size: 4,641,652 bp
+	Contigs/replicons: 1
+	GC: 50.8 %
+	N50: 4,641,652
+	N90: 4,641,652
+	N ratio: 0.0 %
+	coding density: 89.3 %
+{"result":{"podName":"bakta-job-2e50d865-5033-420e-b7d6-a3e7102e6e73-kf5sf"}}
+annotation summary:
+	tRNAs: 88
+	tmRNAs: 1
+	rRNAs: 22
+	ncRNAs: 232
+	ncRNA regions: 57
+	CRISPR arrays: 2
+	CDSs: 4295
+		hypotheticals: 32
+		pseudogenes: 5
+	sORFs: 78
+	gaps: 0
+	oriCs/oriVs: 2
+	oriTs: 0
+{"result":{"podName":"bakta-job-2e50d865-5033-420e-b7d6-a3e7102e6e73-kf5sf"}}
+Export annotation results to: /results
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	feature inferences...
+	circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	Genome and annotation summary...
+{"result":{"podName":"bakta-job-2e50d865-5033-420e-b7d6-a3e7102e6e73-kf5sf"}}
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 6:40 [mm:ss].
+time="2026-10-19T16:52:39.526Z" level=info msg="Taring /results"
+time="2026-10-19T16:52:47.557Z" level=info msg="archived 16 files/dirs in /results"
+[17:52:54] status: RUNNING
+Final status: SUCCESSFUL
+Downloaded FAA: result.faa
+Downloaded GFF3: result.gff3
+Downloaded JSON: result.json
+Downloaded TSV: result.tsv
+Downloaded TSVHypothetical: result.hypotheticals.tsv
+Downloaded TXTLogs: result.txt
+Downloaded TSVInference: result.inference.tsv
+Finished: 2026-10-19T16:53:57Z

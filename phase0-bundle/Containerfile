@@ -1,0 +1,31 @@
+# Phase 0 reproducible environment.
+# Build:  podman build -t geneweaver-phase0:1.0 -f Containerfile .
+# Databases are NOT baked in (2.8 GB) - mount them at /data (see README.md).
+FROM docker.io/library/python:3.12-slim-bookworm
+
+ARG DIAMOND_VERSION=2.2.8
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        curl ca-certificates procps \
+    && rm -rf /var/lib/apt/lists/*
+
+# DIAMOND is a static binary, not a pip package - this is the piece that breaks
+# on a bare container platform if it is not pinned explicitly.
+RUN curl -fsSL -o /tmp/diamond.tar.gz \
+        "https://github.com/bbuchfink/diamond/releases/download/v${DIAMOND_VERSION}/diamond-linux64.tar.gz" \
+    && tar -xzf /tmp/diamond.tar.gz -C /usr/local/bin diamond \
+    && rm /tmp/diamond.tar.gz \
+    && chmod +x /usr/local/bin/diamond \
+    && diamond --version
+
+COPY requirements.lock.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.lock.txt
+
+WORKDIR /work
+ENV GENEWEAVER_DB=/data PYTHONUNBUFFERED=1
+
+# OpenShift assigns an arbitrary non-root UID; keep group-writable paths.
+RUN mkdir -p /work /data && chmod -R g+rwX /work /data
+USER 1001
+
+ENTRYPOINT ["/bin/bash"]

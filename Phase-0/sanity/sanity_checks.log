@@ -1,0 +1,37 @@
+Check 1: reference (with EC) scored against itself
+  [PASS] recall = 100%: 100.00%
+  [PASS] precision = 100%: 100.00%
+  [PASS] start_exact = 100%: 100.00%
+  [PASS] symbol_match = 100%: 100.00%
+  [PASS] ec_match = 100%: 100.00%
+  [PASS] ec_set_equal = 100%: 100.00%
+  [PASS] product_match = 100%: 100.00%
+  [PASS] agrees = 100%: 100.00%
+  [PASS] false_positives = 0: 0
+  [PASS] on_reference_pseudogenes = 0: 0
+  [PASS] hypothetical_where_known = 0: 0.0
+  [PASS] wrong_function = 0: 0.0
+  [PASS] every reference gene matched: 4290 / 4290
+  [PASS] duplicate_stops = 10 (alternative-start reference CDS): 10
+
+Check 2: 10 random reference genes deleted (seed 42)
+  deleted b1749    xtha           + stop 1833234
+  deleted b0390    arom           + stop 408105
+  deleted b0364    yais           - stop 384059
+  deleted b4220    tama           + stop 4444115
+  deleted b3871    bipa           + stop 4060230
+  deleted b2344    fadl           + stop 2462646
+  deleted b1597    asr            + stop 1671684
+  deleted b4743    ynal           + stop 1409481
+  deleted b2759    casb           - stop 2882155
+  deleted b0487    cuer           + stop 514400
+  [PASS] missed genes are exactly the deleted ones: 10 missed; not deleted but missed: 0; deleted but not missed: 0
+  [PASS] recall = 4280/4290: 4280 matched, recall 99.77%
+  [PASS] precision still 100%: 100.00%
+  [PASS] start_exact still 100%: 100.00%
+  [PASS] symbol_match still 100%: 100.00%
+  [PASS] product_match still 100%: 100.00%
+  [PASS] agrees still 100%: 100.00%
+  [PASS] false_positives = 0: 0
+
+ALL CHECKS PASSED

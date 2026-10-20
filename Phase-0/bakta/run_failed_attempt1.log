@@ -1,0 +1,18 @@
+Started: 2026-10-19T16:45:11Z
+Server version: {"toolVersion": "1.12.2", "dbVersion": "6.0", "backendVersion": "1.1.0"}
+Job ID: 3e5847d7-c246-48d4-968d-f222b4a00057
+Uploaded reference/ncbi_dataset/data/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna
+Uploaded bakta/replicons.tsv
+Job started with config: {"completeGenome": true, "translationTable": 11, "keepContigHeaders": true, "minContigLength": 1, "compliant": false}
+Traceback (most recent call last):
+  File "/Users/karthikmandigiri/Geneweaver_v3/Phase-0/run_bakta.py", line 160, in <module>
+    main()
+    ~~~~^^
+  File "/Users/karthikmandigiri/Geneweaver_v3/Phase-0/run_bakta.py", line 151, in main
+    status = watch_job(job)
+  File "/Users/karthikmandigiri/Geneweaver_v3/Phase-0/run_bakta.py", line 109, in watch_job
+    status = get_status(job)
+  File "/Users/karthikmandigiri/Geneweaver_v3/Phase-0/run_bakta.py", line 95, in get_status
+    return reply["jobs"][0]["jobStatus"]
+           ~~~~~~~~~~~~~^^^
+IndexError: list index out of range

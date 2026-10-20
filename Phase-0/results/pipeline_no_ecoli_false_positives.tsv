@@ -1,0 +1,68 @@
+seqid	strand	stop	pred_id	pred_start	pred_product
+NC_000913.3	+	98	NC_000913.3_1	3	hypothetical protein
+NC_000913.3	+	16720	NC_000913.3_16	16580	hypothetical protein
+NC_000913.3	+	195816	NC_000913.3_169	195664	hypothetical protein
+NC_000913.3	+	225212	NC_000913.3_197	224958	hypothetical protein
+NC_000913.3	-	263108	NC_000913.3_237	263212	hypothetical protein
+NC_000913.3	+	272255	NC_000913.3_251	272016	hypothetical protein
+NC_000913.3	+	275248	NC_000913.3_254	275159	hypothetical protein
+NC_000913.3	-	280024	NC_000913.3_261	280362	Transposase domain-containing protein
+NC_000913.3	-	349518	NC_000913.3_325	349964	hypothetical protein
+NC_000913.3	-	383945	NC_000913.3_356	384043	hypothetical protein
+NC_000913.3	-	396333	NC_000913.3_369	396434	hypothetical protein
+NC_000913.3	-	408628	NC_000913.3_385	408747	hypothetical protein
+NC_000913.3	+	574699	NC_000913.3_540	574481	hypothetical protein
+NC_000913.3	+	609340	NC_000913.3_573	609200	hypothetical protein
+NC_000913.3	-	705860	NC_000913.3_662	705982	hypothetical protein
+NC_000913.3	+	720840	NC_000913.3_676	720583	hypothetical protein
+NC_000913.3	+	1256476	NC_000913.3_1173	1256297	hypothetical protein
+NC_000913.3	+	1277862	NC_000913.3_1197	1277644	hypothetical protein
+NC_000913.3	+	1287631	NC_000913.3_1203	1287065	hypothetical protein
+NC_000913.3	+	1299427	NC_000913.3_1215	1299272	hypothetical protein
+NC_000913.3	-	1429546	NC_000913.3_1346	1430283	hypothetical protein
+NC_000913.3	+	1547988	NC_000913.3_1450	1547401	Molybdopterin oxidoreductase Fe4S4 domain-containing protein
+NC_000913.3	+	1640737	NC_000913.3_1533	1640618	hypothetical protein
+NC_000913.3	-	1647122	NC_000913.3_1543	1647349	hypothetical protein
+NC_000913.3	-	1649045	NC_000913.3_1550	1649209	hypothetical protein
+NC_000913.3	+	1691525	NC_000913.3_1591	1691430	hypothetical protein
+NC_000913.3	+	1712486	NC_000913.3_1611	1712286	hypothetical protein
+NC_000913.3	-	1779404	NC_000913.3_1674	1779580	hypothetical protein
+NC_000913.3	+	1929877	NC_000913.3_1823	1929767	hypothetical protein
+NC_000913.3	-	1936480	NC_000913.3_1830	1936629	hypothetical protein
+NC_000913.3	+	2044897	NC_000913.3_1947	2044748	hypothetical protein
+NC_000913.3	+	2153846	NC_000913.3_2040	2153700	hypothetical protein
+NC_000913.3	+	2405499	NC_000913.3_2258	2405335	hypothetical protein
+NC_000913.3	+	2515606	NC_000913.3_2363	2515466	hypothetical protein
+NC_000913.3	+	2597920	NC_000913.3_2442	2597690	hypothetical protein
+NC_000913.3	-	2629120	NC_000913.3_2470	2629272	hypothetical protein
+NC_000913.3	-	2727331	NC_000913.3_2555	2727450	hypothetical protein
+NC_000913.3	-	2729716	NC_000913.3_2556	2729970	hypothetical protein
+NC_000913.3	+	2755679	NC_000913.3_2583	2755554	hypothetical protein
+NC_000913.3	+	2818393	NC_000913.3_2646	2817923	hypothetical protein
+NC_000913.3	-	2856883	NC_000913.3_2684	2857017	hypothetical protein
+NC_000913.3	-	2988250	NC_000913.3_2797	2988381	hypothetical protein
+NC_000913.3	-	3417994	NC_000913.3_3199	3418284	hypothetical protein
+NC_000913.3	+	3423826	NC_000913.3_3206	3423503	hypothetical protein
+NC_000913.3	-	3427321	NC_000913.3_3207	3427575	hypothetical protein
+NC_000913.3	+	3647989	NC_000913.3_3430	3647816	hypothetical protein
+NC_000913.3	-	3658894	NC_000913.3_3443	3659172	hypothetical protein
+NC_000913.3	+	3754754	NC_000913.3_3521	3754542	hypothetical protein
+NC_000913.3	+	3943249	NC_000913.3_3691	3942995	hypothetical protein
+NC_000913.3	+	3967904	NC_000913.3_3710	3967686	hypothetical protein
+NC_000913.3	+	4036972	NC_000913.3_3772	4036718	hypothetical protein
+NC_000913.3	-	4046722	NC_000913.3_3780	4046907	hypothetical protein
+NC_000913.3	+	4078956	NC_000913.3_3807	4078849	hypothetical protein
+NC_000913.3	+	4080151	NC_000913.3_3810	4079969	hypothetical protein
+NC_000913.3	-	4085235	NC_000913.3_3815	4085822	Molybdopterin oxidoreductase Fe4S4 domain-containing protein
+NC_000913.3	-	4107317	NC_000913.3_3836	4107421	hypothetical protein
+NC_000913.3	+	4168100	NC_000913.3_3888	4167846	hypothetical protein
+NC_000913.3	+	4170494	NC_000913.3_3889	4170375	hypothetical protein
+NC_000913.3	+	4209588	NC_000913.3_3921	4209334	hypothetical protein
+NC_000913.3	+	4211896	NC_000913.3_3922	4211777	hypothetical protein
+NC_000913.3	-	4246512	NC_000913.3_3947	4246607	hypothetical protein
+NC_000913.3	-	4250449	NC_000913.3_3951	4250601	hypothetical protein
+NC_000913.3	-	4298947	NC_000913.3_3996	4299366	Molybdopterin oxidoreductase domain-containing protein
+NC_000913.3	+	4496721	NC_000913.3_4182	4496527	hypothetical protein
+NC_000913.3	-	4508574	NC_000913.3_4196	4508942	Transposase domain-containing protein
+NC_000913.3	-	4554383	NC_000913.3_4239	4554577	hypothetical protein
+NC_000913.3	+	4628748	NC_000913.3_4307	4628581	hypothetical protein
