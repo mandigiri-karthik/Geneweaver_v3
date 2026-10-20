@@ -55,18 +55,22 @@ EOF
 fi
 
 echo "== leakage-control copy (Escherichia / Shigella removed) =="
-if verify uniprot_sprot_no_ecoli.fasta.gz 2>/dev/null; then
-    echo "ok (cached)  uniprot_sprot_no_ecoli.fasta.gz"
+# The md5 cannot be relied on here: gzip output varies with the zlib build, so the
+# derived file legitimately differs byte-for-byte from the Phase 0 original while
+# holding exactly the same entries. The entry count is the real integrity check.
+count_entries() { python3 -c "
+import gzip,sys
+print(sum(1 for l in gzip.open(sys.argv[1],'rt') if l.startswith('>')))" "$1" 2>/dev/null || echo 0; }
+
+if [ -f uniprot_sprot_no_ecoli.fasta.gz ] && [ "$(count_entries uniprot_sprot_no_ecoli.fasta.gz)" = "545523" ]; then
+    echo "ok (cached)  uniprot_sprot_no_ecoli.fasta.gz  (545523 entries)"
 else
     python3 "$HERE/make_no_ecoli.py" \
         --input uniprot_sprot.fasta.gz \
         --output uniprot_sprot_no_ecoli.fasta.gz \
         --expect-kept 545523
-    verify uniprot_sprot_no_ecoli.fasta.gz || {
-        echo "  Derived file differs from the Phase 0 original." >&2
-        echo "  The entry set may still be correct - check the kept/removed counts above." >&2
-        echo "  (gzip byte-identity depends on the zlib build; the DIAMOND index is what matters.)" >&2
-    }
+    # make_no_ecoli.py already asserts --expect-kept 545523 and exits non-zero otherwise.
+    echo "   derived and entry count asserted (545523)"
 fi
 
 echo "== Pfam ($PFAM_RELEASE) =="
@@ -91,7 +95,10 @@ echo "== DIAMOND indexes (rebuilt locally; md5 depends on the DIAMOND build) =="
 for base in swissprot swissprot_no_ecoli; do
     src="uniprot_sprot.fasta.gz"
     [ "$base" = "swissprot_no_ecoli" ] && src="uniprot_sprot_no_ecoli.fasta.gz"
-    if [ -f "$base.dmnd" ]; then echo "ok (cached)  $base.dmnd"; else
+    if [ -f "$base.dmnd" ] && [ ! "$src" -nt "$base.dmnd" ]; then
+        echo "ok (cached)  $base.dmnd"
+    else
+        [ -f "$base.dmnd" ] && echo "   $src is newer than $base.dmnd - rebuilding"
         echo "building     $base.dmnd"
         diamond makedb --in "$src" --db "$base" --quiet
     fi
