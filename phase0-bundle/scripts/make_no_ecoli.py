@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import gzip
+import io
 import re
 import sys
 
@@ -33,8 +34,13 @@ def main() -> int:
 
     kept = removed = 0
     keep_current = True
-    # mtime=0 so the output is byte-reproducible across runs.
-    with gzip.open(a.input, "rt") as fin, gzip.open(a.output, "wt", compresslevel=9, mtime=0) as fout:
+    # gzip.open() has no mtime parameter - only GzipFile does. Writing through an
+    # explicit GzipFile with mtime=0 and an empty filename field (otherwise the output
+    # path is embedded in the gzip header) keeps the output byte-reproducible.
+    with gzip.open(a.input, "rt") as fin, \
+            open(a.output, "wb") as raw, \
+            gzip.GzipFile(filename="", fileobj=raw, mode="wb", compresslevel=9, mtime=0) as gz, \
+            io.TextIOWrapper(gz, encoding="utf-8", newline="") as fout:
         for line in fin:
             if line.startswith(">"):
                 keep_current = not excluded(line)

@@ -31,7 +31,7 @@ fetch() {  # fetch URL FILE
     local url="$1" f="$2"
     if verify "$f" 2>/dev/null; then echo "ok (cached)  $f"; return; fi
     echo "downloading  $f"
-    curl -fSL --retry 3 --retry-delay 5 -o "$f.part" "$url"
+    curl -fSL --no-progress-meter --retry 3 --retry-delay 5 -o "$f.part" "$url"
     mv "$f.part" "$f"
 }
 
